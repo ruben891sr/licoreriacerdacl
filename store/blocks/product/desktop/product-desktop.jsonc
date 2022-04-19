@@ -83,24 +83,15 @@
       "marginTop": 6
     },
     "children": [
-      "flex-layout.col#product-price",
-      "flex-layout.col#conditional-tax"
+      "flex-layout.col#product-price"
     ]
   },
   "flex-layout.col#product-price": {
     "props": {
-      "blockClass": "product-price"
+      "blockClass": "product-price" 
     },
     "children": [
       "product-price#product-details"
-    ]
-  },
-  "flex-layout.col#conditional-tax": {
-    "props": {
-      "blockClass": "conditional-tax"
-    },
-    "children": [
-      "conditional-tax"
     ]
   },
   "flex-layout.row#custom-price": {
