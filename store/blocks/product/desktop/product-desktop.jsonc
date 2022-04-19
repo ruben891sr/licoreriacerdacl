@@ -54,7 +54,6 @@
       "product-identifier.product",
       "flex-layout.row#product-price",
       //"flex-layout.row#savings-price",
-      "flex-layout.row#custom-price",
       "product-specification-group#cantidad-de-venta",
       "vtex.product-highlights@2.x:product-highlights",
       "product-separator",
@@ -87,21 +86,11 @@
     ]
   },
   "flex-layout.col#product-price": {
-    "props": {
+    "props": { 
       "blockClass": "product-price" 
     },
     "children": [
       "product-price#product-details"
-    ]
-  },
-  "flex-layout.row#custom-price": {
-    "props": {
-      "blockClass": "conditional-price",
-      "marginBottom": 7
-    },
-    "children": [
-      "conditional-price"
-
     ]
   },
   "flex-layout.row#group-section": {
@@ -128,19 +117,6 @@
       "width": "80%"
     },
     "children": [
-      "modal-trigger#ficha-tecnica"
-    ]
-  },
-  "modal-trigger#ficha-tecnica": {
-    "children": [
-      "flex-layout.row#rich-text#ficha-tecnica",
-      "modal-layout#ficha-tecnica"
-    ]
-  },
-  "modal-layout#ficha-tecnica": {
-    "children": [
-      "modal-header#ficha-tecnica",
-      "modal-content#ficha-tecnica"
     ]
   },
   "modal-header#ficha-tecnica": {
@@ -152,11 +128,11 @@
       "iconCloseSize": "30"
     }
   },
-  "modal-content#ficha-tecnica": {
-    "children": [
-      "info-modal"
-    ]
-  },
+  // "modal-content#ficha-tecnica": {
+  //   "children": [
+  //     "info-modal"
+  //   ]
+  // },
   "flex-layout.row#details-section": {
     "props": {
       "blockClass": "details-section",
@@ -247,11 +223,6 @@
       "onClickBehavior": "add-to-cart",
       "text": "Agregar al Carro"
     }
-  },
-  "flex-layout.row#rich-text#ficha-tecnica": {
-    "children": [
-      "trigger-modal"
-    ]
   },
   "rich-text#ficha-tecnica": {
     "props": {
