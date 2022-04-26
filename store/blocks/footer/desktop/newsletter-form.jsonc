@@ -6,7 +6,6 @@
         },
         "children": [
             "rich-text#title-nw",
-            "rich-text#subtitle-nw",
             "newsletter-form#footer"
         ]
     },
@@ -14,16 +13,8 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Newsletter",
-            "blockClass": "footer-title"
-        }
-    },
-    "rich-text#subtitle-nw": {
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "Suscríbete a nuestro newsletter y obtén descuentos",
-            "blockClass": "footer-subtitle"
+            "text": "Suscríbete a nuestro newsletter",
+            "blockClass": "footer-title-newsletter"
         }
     },
     "newsletter-form#footer": {

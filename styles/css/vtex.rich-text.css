@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-family: "Lato-Thin";
+  font-family: "CenturyGothic-Regular";
 }
 
 .headingLevel1--section-texto-seo::after {
@@ -39,7 +39,7 @@
   display: flex;
   position: relative;
   margin-right: 2rem;
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   font-weight: 500;
 }
 
@@ -57,29 +57,31 @@
 }
 
 .headingLevel3--title-carousel-mas-vendidos {
-  color: #3d3d3d;
+  color: #211F30;
   font-size: 30px;
   display: flex;
   align-items: center;
   width: 100%;
   text-align: left;
-  font-family: "Lato";
-  margin: 1rem 0 2rem;
+  font-family: CenturyGothic-Bold;
+  margin: 1rem 0px 2rem;
   justify-content: center;
   position: relative;
   font-weight: 500;
+  z-index: 1;
 }
 
 .headingLevel3--title-carousel-mas-vendidos::after {
   content: "";
-  width: 150px;
-  height: 6px;
-  background-color: #0060aa;
+  width: 200px;
+  height: 14px;
+  background-color: #C1E1DC;
   position: absolute;
-  bottom: -10px;
-  left: 0;
-  right: 0;
+  bottom: -2px;
+  left: 0px;
+  right: 0px;
   margin-left: auto;
+  z-index: -1;
   margin-right: auto;
 }
 
@@ -87,14 +89,14 @@
   margin: 2rem auto 0;
   font-size: 16px;
   max-width: 1350px;
-  font-family: "Lato-Thin";
+  font-family: "CenturyGothic-Regular";
   font-weight: 800;
 }
 .paragraph--section-texto-seo-dpto {
     margin-bottom: 3rem;
     font-size: 15px;
     max-width: 1024px;
-    font-family: "Lato-Thin";
+    font-family: "CenturyGothic-Regular";
   }
 .strong--section-texto-seo-dpto {
   line-height: 1.7;
@@ -115,7 +117,7 @@
 
 .paragraph--nosotros-text {
   font-size: 16px;
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   line-height: 2;
 }
 
@@ -125,31 +127,45 @@
 }
 
 .paragraph--contacto {
-  color: #ffffff;
-  font-family: "Lato-Bold";
-  margin-left: 38px;
-  font-size: 12px;
+  color: #211F30;
+  font-family: "CenturyGothic-Bold";
+  font-size: 13px;
 }
 
 .paragraph--telefono {
   color: #ffffff;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   margin-left: 40px;
   font-size: 12px;
 }
 
 .paragraph--horario {
   color: #ffffff;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   margin-right: 40px;
 }
 
 .paragraph--tienda {
   color: #ffffff;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   margin-right: 38px;
+}
+
+.paragraph--footer-title-newsletter {
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  font-family: "CenturyGothic-Bold";
+  margin: 2rem 0;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
 }
 
 .link--contacto,
@@ -165,20 +181,20 @@
 
 .paragraph--footer-subtitle {
   color: #000000;
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   text-decoration: none;
 }
 
 .link--footer-subtitle {
   color: #000000;
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   text-decoration: none;
 }
 
 .paragraph--footer-title {
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 18px;
   margin-bottom: 1rem;
   color: #000000;
@@ -187,7 +203,7 @@
 }
 
 .paragraph--copyright {
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   color: #ffffff;
   margin: 0;
@@ -200,7 +216,7 @@
 
 .paragraph--submenu-catalogo {
   font-size: 12px;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   margin: 0;
   padding: 0 1rem;
 }
@@ -225,7 +241,7 @@
 
 .link--telefono-mobile,
 .link--correo-mobile {
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
   color: #000000;
   text-decoration: none;
@@ -271,7 +287,7 @@
 
 .paragraph--info-covid {
   color: #ffffff;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
 }
 
@@ -280,13 +296,13 @@
 }
 
 .container--texto-modal {
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
 .container--contacto-modal {
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   margin-top: 1.5rem;
 }
 
@@ -307,7 +323,7 @@
   cursor: pointer;
   color: #183152;
   margin-bottom: 0.75rem;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 0.9rem;
   position: relative;
   display: flex;
@@ -378,7 +394,7 @@
     .headingLevel1--section-texto-seo {
         font-size: 23px;
         font-weight: 500;
-        font-family: 'Lato';
+        font-family: "CenturyGothic-Bold";
     }
     .paragraph--footer-title {
         margin-bottom: 0.5rem;
@@ -410,6 +426,7 @@
 
   .headingLevel3--title-carousel-mas-vendidos {
     font-size: 23px;
+    margin: 0;
   }
   .headingLevel3--title-carousel-especial {
     font-size: 23px;
@@ -431,10 +448,21 @@
   .headingLevel1--section-texto-seo {
     font-size: 23px;
     font-weight: 500;
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
   }
   .paragraph--footer-title {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
+  }
+  .paragraph--contacto {
+    font-size: 10px;
+  }
+
+  .paragraph--footer-title-newsletter {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
   }
 }

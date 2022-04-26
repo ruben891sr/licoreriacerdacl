@@ -17,7 +17,7 @@
 .link--16,
 .link--17 {
     font-size: 12px;
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     color: #888a8b;
     text-transform: capitalize;
 }
@@ -29,7 +29,7 @@
 .homeLink::before {
     content: "Home";
     font-size: 12px;
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     color: #888a8b;
     display: block;
 }

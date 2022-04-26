@@ -6,6 +6,7 @@
   },
   "sticky-layout#mobile": {
     "children": [
+      "flex-layout.row#topbar",
       "flex-layout.row#mobile"
     ],
     "props": {

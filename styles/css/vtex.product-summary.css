@@ -1,13 +1,13 @@
 .element :global(.vtex-product-summary-2-x-productBrand) {
-    color: #3d3d3d;
-    font-size: 16px;
-    font-family: 'Lato-Bold';
+    color: #211F30;
+    font-size: 17px;
+    font-family: 'CenturyGothic-Bold';
     font-weight: 400;
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding: 0 20px;
-    max-height: 4rem;
+    text-align: left;
+    padding: 0;
+    height: 2.5rem;
     -webkit-line-clamp: 2;
     display: box;
     display: -webkit-box;
@@ -17,15 +17,17 @@
 }
 
 .element :global(.vtex-button) {
-    background: #ffffff;
-    border: 2px solid #0060aa;
-    border-radius: 5px;
+    background: #D84C4C;
+    border-radius: 3px;
     font-size: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0;
+    height: 45px;
+    width: 55px;
+    border: 1px solid;
 }
 
 .element :global(.vtex-button):hover {
-    background: #0060aa;
+    background: #831d1e;
 }
 
 .element :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
@@ -46,11 +48,11 @@
 .productNameContainer {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .nameContainer {
-    height: 50px;
+    padding-bottom: .7rem;
 }
 
 .skuSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorTextContainer),
@@ -86,6 +88,8 @@
 @media screen and (max-width: 1024px) {
     .element :global(.vtex-button) {
         padding: 0;
+        width: 100%;
+        margin-top: 0.2rem;
     }
     .element {
         max-width: none;

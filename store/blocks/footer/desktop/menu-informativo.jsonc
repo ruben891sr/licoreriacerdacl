@@ -1,0 +1,80 @@
+{
+  "vtex.menu@2.x:menu#informativo": {
+    "children": [
+      "menu-item#informativo-title",
+      "menu-item#informativo-tienda",
+      "menu-item#informativo-somos",
+      "menu-item#informativo-eventos"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    }
+  },
+
+  // Title
+  "menu-item#informativo-title": {
+    "props": {
+      "id": "menu-item-informativo-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "informativo-title",
+        "text": "Informativo"
+      }
+    }
+  },
+  "menu-item#informativo-tienda": {
+    "props": {
+      "id": "menu-item-informativo-tienda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/informativo-tienda",
+        "noFollow": true,
+        "tagTitle": "informativo-tienda",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#informativo-somos": {
+    "props": {
+      "id": "menu-item-informativo-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/informativo-somos",
+        "noFollow": true,
+        "tagTitle": "informativo-somos",
+        "text": "Quiénes Somos"
+      }
+    }
+  },
+  "menu-item#informativo-eventos": {
+    "props": {
+      "id": "menu-item-informativo-eventos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/informativo-eventos",
+        "noFollow": true,
+        "tagTitle": "informativo-eventos",
+        "text": "Grandes eventos"
+      }
+    }
+  }
+}

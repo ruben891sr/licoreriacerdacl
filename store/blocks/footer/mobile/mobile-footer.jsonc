@@ -1,7 +1,7 @@
 {
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#section-texto-seo",
+      "flex-layout.row#newsletter",
       "flex-layout.row#footer-menu",
       "flex-layout.row#footer-info"
     ]

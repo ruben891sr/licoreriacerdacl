@@ -2,10 +2,11 @@
     "vtex.menu@2.x:menu#menu-desktop": {
       "children": [
         "menu-item#catalogo",
-        "menu-item#sobre-nosotros",
-        "menu-item#sucursales",
-        "menu-item#Contacto",
-        "menu-item#Cotizador"
+        "menu-item#pack-box",
+        "menu-item#promociones",
+        "menu-item#mayoristas",
+        "menu-item#santera",
+        "menu-item#tiendita"
       ],
       "props":{
          "blockClass": "menu-desktop"
@@ -25,54 +26,54 @@
           "tagTitle": "Catalogo",
           "text": "Catálogo"
         }
-      },
-      "blocks": ["vtex.menu@2.x:submenu#catalogo"] 
+      }
+      // "blocks": ["vtex.menu@2.x:submenu#catalogo"] 
     },
-    "menu-item#sobre-nosotros": {
+    "menu-item#pack-box": {
         "props": {
-          "id": "menu-item-sobre-nosotros",
+          "id": "menu-item-pack-box",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "blockClass": "menu-desktop",
           "itemProps": {
             "type": "internal",
-            "href": "/sobre-nosotros",
+            "href": "/",
             "noFollow": true,
-            "tagTitle": "sobre-nosotros",
-            "text": "Sobre Nosotros"
+            "tagTitle": "pack-box",
+            "text": "Pack Box"
           }
         }
       },   
-      "menu-item#sucursales": {
+      "menu-item#promociones": {
         "props": {
-          "id": "menu-item-sucursales",
+          "id": "menu-item-promociones", 
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "blockClass": "menu-desktop",
           "itemProps": {
             "type": "internal",
-            "href": "/sucursales",
+            "href": "/",
             "noFollow": true,
-            "tagTitle": "Sucursales",
-            "text": "Sucursales"
+            "tagTitle": "promociones",
+            "text": "Promociones"
           }
         }
       },
-      "menu-item#Contacto": {
+      "menu-item#mayoristas": {
         "props": {
-          "id": "menu-item-contacto",
+          "id": "menu-item-mayoristas",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "blockClass": "menu-desktop",
           "itemProps": {
             "type": "internal",
-            "href": "/contacto",
+            "href": "/",
             "noFollow": true,
-            "tagTitle": "Contacto",
-            "text": "Contacto"
+            "tagTitle": "mayoristas",
+            "text": "Mayoristas"
           }
         }
       },
@@ -81,19 +82,35 @@
             "vtex.menu@2.x:menu#submenu-catalogo"
           ]
       },
-      "menu-item#Cotizador": {
+      "menu-item#santera": {
         "props": {
-          "id": "menu-item-contacto",
+          "id": "menu-item-santera",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "blockClass": "menu-desktop",
           "itemProps": {
             "type": "internal",
-            "href": "/orderquote",
+            "href": "/",
             "noFollow": true,
-            "tagTitle": "Cotizador",
-            "text": "Cotizador"
+            "tagTitle": "santera",
+            "text": "Santera"
+          }
+        }
+      },
+      "menu-item#tiendita": {
+        "props": {
+          "id": "menu-item-tiendita",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "tiendita",
+            "text": "La tiendita"
           }
         }
       }

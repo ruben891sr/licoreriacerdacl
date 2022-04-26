@@ -2,22 +2,22 @@
     border-radius: 0;
 }
 .productName {
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     color: #000000;
 }
 .productBrandName {
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     color: #000000;
 }
 .productVariationsContainer, .quantitySelectorContainer :global(.vtex-dropdown__button)  {
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
     
 }
 .quantitySelectorContainer :global(.vtex-styleguide-9-x-container) {
 border-radius: 0;
 }
 .price {
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     color: #000000;
 }
 .productBrandName, .productVariationsContainer .productVariationsItem:first-child, .productVariationsContainer .productVariationsItem:last-child, .productVariationsContainer .productVariationsItem:nth-child(4n-2) {

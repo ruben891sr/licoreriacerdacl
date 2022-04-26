@@ -1,26 +1,27 @@
 :global(.vtex-slider-layout-0-x-paginationDot) {
     background: #fff;
-    border: 1px solid #183152;
+    border: 1px solid #158276;
     margin: 0 .4rem;
 }
 
 :global(.vtex-slider-layout-0-x-paginationDot--isActive) {
-    background: #183152!important;
+    background: #158276!important;
 }
 
 .sliderArrows {
     border-radius: 25px;
-    color: #fff;
+    color: #158276;
 }
 
 :global(.vtex-slider-layout-0-x-caretIcon) {
-    background: #183152;
+    background: #fff;
     padding: 5px;
     border-radius: 50px;
+    box-shadow: 0 0 20px rgba(51, 51, 51, 0.2);
 }
 
 .paginationDotsContainer {
-    bottom: 12px;
+    bottom: 0;
 }
 
 :global(.vtex-slider-layout-0-x-sliderTrackContainer) {

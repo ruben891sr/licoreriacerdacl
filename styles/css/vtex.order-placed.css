@@ -2,7 +2,7 @@
   color: #4ea2e2;
 }
 .confirmationTitle {
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   color: #000000;
 }
 .confirmationTitle::after {
@@ -11,7 +11,7 @@
   font-size: 16px;
 }
 .confirmationMessage {
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   color: #000000;
   margin-top: 2rem;
 }
@@ -22,11 +22,11 @@
 }
 .noticesList {
   background: #ffffff;
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
   color: #000000;
 }
 .orderNumber {
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   color: #000000;
   font-size: 24px;
 }
@@ -39,7 +39,7 @@
 .updateOrderButton :global(.vtex-button__label),
 .myOrdersButton :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
 }
 .cancelOrderButton :global(.vtex-button) {
@@ -54,13 +54,13 @@
 }
 .cancelOrderButton :global(.vtex-button__label) {
   color: #0060aa;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
 }
 .orderDatetime,
 .orderSoldBy,
 .productPrice {
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   color: #000000;
   font-size: 14px;
   position: relative;
@@ -100,7 +100,7 @@
 .totalListItemLabel,
 .totalListItemValue {
   color: #000000;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
 }
 .totalListItem:last-child {
     font-size: 18px;

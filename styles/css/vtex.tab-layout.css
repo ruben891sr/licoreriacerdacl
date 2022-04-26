@@ -39,7 +39,7 @@
   font-size: 14px;
   margin: 0.5rem 0;
   padding: 0.5rem;
-  font-family: "Lato";
+  font-family: "CenturyGothic-Bold";
 }
 .contentItem--tab-content-tecnica {
   display: flex;
@@ -99,7 +99,7 @@
 }
 .listItem--tab-item-sucursales :global(.vtex-button__label) {
   color: #000000;
-  font-family: "Lato-Bold";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
   text-transform: capitalize;
   justify-content: flex-start;

@@ -9,15 +9,6 @@
     justify-content: flex-start;
 }
 
-.openIconContainer :global(.vtex-button__label)::before {
-    content: "Mi carrito";
-    font-family: "Lato";
-    font-size: 14px;
-    color: #000000;
-    text-transform: initial;
-    margin-right: 0.3rem;
-}
-
 .minicartQuantityBadgeDefault {
     top: -0.3rem;
     right: 0rem;
@@ -37,7 +28,7 @@
 
 .minicartTitle::before {
     content: "Carrito de Compras";
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     font-size: 22px;
     color: #000000;
     text-transform: initial;
@@ -65,13 +56,6 @@
 .minicartCheckoutButton :global(.vtex-button):hover {
     background: #4EA2E2;
     border: 0;
-}
-
-.minicartCheckoutButton :global(.vtex-button)::before {
-    content: "Finalizar Compra";
-    font-family: "Lato-Bold";
-    font-size: 16px;
-    text-transform: initial;
 }
 
 @media screen and (max-width: 1024px) {

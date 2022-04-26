@@ -1,0 +1,99 @@
+{
+  "vtex.menu@2.x:menu#rrss": {
+    "children": [
+      "menu-item#rrss-title",
+      "menu-item#rrss-facebook",
+      "menu-item#rrss-instagram",
+      "menu-item#rrss-youtube",
+      "menu-item#rrss-twitter"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    }
+  },
+
+  // Title
+  "menu-item#rrss-title": {
+    "props": {
+      "id": "menu-item-rrss-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "rrss-title",
+        "text": "Redes Sociales"
+      }
+    }
+  },
+
+  // Items
+  "menu-item#rrss-facebook": {
+    "props": {
+      "id": "menu-item-rrss-facebook",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "rrss-facebook",
+        "text": "LicoreriaCerdaeHijos"
+      }
+    }
+  },
+  "menu-item#rrss-instagram": {
+    "props": {
+      "id": "menu-item-crrss-instagram",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "rrss-instagram",
+        "text": "licoreria.cerdaehijos"
+      }
+    }
+  },
+  "menu-item#rrss-youtube": {
+    "props": {
+      "id": "menu-itemrrss-youtube",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "rrss-youtube",
+        "text": "licoreria.cerdaehijos"
+      }
+    }
+  },
+  "menu-item#rrss-twitter": {
+    "props": {
+      "id": "menu-itemrrss-twitter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "rrss-twitter",
+        "text": "CerdaHijosv"
+      }
+    }
+  }
+}

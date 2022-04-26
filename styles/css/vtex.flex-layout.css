@@ -2,13 +2,13 @@
     padding-bottom: 1rem;
     max-width: 1920px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
 }
 
 .flexRow--main-calugas-slider {
     max-width: 1380px;
     width: 100%;
-    margin: 0 auto 2rem;
+    margin: 0 auto 6rem auto;
 }
 
 .flexRow--main-icon-slider {
@@ -64,7 +64,7 @@
 }
 
 .flexRow--topbar {
-    background: #183152;
+    background: #E1F1EF;
     height: 33px;
 }
 
@@ -72,7 +72,7 @@
     height: 33px;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .flexCol--col-tienda {
@@ -84,20 +84,27 @@
 
 .flexRow--menu-header,
 .flexRowContent--main-header-mobile {
-    background: #ffffff;
-    border-bottom: 1px solid #3d3d3d1c;
+    background: #fafafa;
+    padding: 0.3rem;
+}
+
+.flexRow--newsletter {
+    padding-top: 4rem;
+}
+
+.flexRowContent--footer-menu {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .flexRow--footer-menu {
-    background: #dde2f1;
     padding: 5rem 0;
     position: relative;
     z-index: 0;
 }
 
 .flexRow--footer-info {
-    background: #183152;
-    padding: 1rem 0;
+    padding: 1rem 0 4rem 0; 
 }
 
 .flexCol--footer-info {
@@ -105,7 +112,9 @@
 }
 
 .flexColChild--newsletter {
-    height: auto !important;
+    height: auto!important;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .flexColChild--newsletter:nth-child(3n) {
@@ -114,7 +123,7 @@
 
 .flexRowContent--main-header-mobile {
     background: #ffffff !important;
-    height: 50px;
+    height: 70px;
 }
 
 .flexColChild--form-contacto-junaplas:nth-child(3n) {
@@ -128,7 +137,7 @@
 .flexColChild--form-contacto-junaplas :global(.vtex-input__label),
 .flexColChild--form-contacto-junaplas :global(.vtex-textarea__label) {
     font-size: 16px;
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     text-transform: capitalize;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
@@ -210,7 +219,7 @@
 
 .flexRowContent--confirmationButtons :global(.vtex-button__label) {
     color: #ffffff;
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
 }
 
 .flexRowContent--banner-category {
@@ -253,11 +262,42 @@
     background-color: #dde2f1;
     border-bottom: 1px solid #ccc;
 }
+
 .flexRowContent--product-price :global(.vtex-flex-layout-0-x-stretchChildrenWidth ) {
     width: auto!important;
     padding-right: .5rem;
 
 }
+
+.flexRow--row-section-calugas-grid {
+    margin: 5rem 0;
+}
+
+.flexColChild--search-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.flexColChild--search-category::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flexRow--banner-category {
+    margin-top: 2rem;
+    box-shadow: 0 0 20px rgb(51 51 51 / 40%);
+}
+
+.flexRowContent--main-calugas-slider {
+    margin-top: 2rem;
+}
+
 @media screen and (max-width: 1024px) {
     .flexCol--footer-info:nth-child(1n) {
         margin-bottom: 1rem;
@@ -317,5 +357,21 @@
     }
     .container--title-sucursal {
         justify-content: center;
+    }
+    .flexColChild--newsletter {
+        width: 100%;
+    }
+    .flexRow--footer-menu {
+        margin-top: 7rem;
+        padding-top: 0;
+    }
+    .flexRowContent--footer-menu {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        border-top: 1px solid #fff;
+    }
+    .flexRow--newsletter {
+        padding-top: 3rem;
     }
 }

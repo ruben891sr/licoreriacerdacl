@@ -1,5 +1,5 @@
 .orderByText {
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
     color: #000000;
     font-size: 14px;
     text-transform: initial;
@@ -7,7 +7,7 @@
 
 .filterPopupTitle {
     color: #0060aa;
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     font-size: 14px;
     text-transform: initial;
 }
@@ -23,7 +23,7 @@
 }
 
 .filterMessage {
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
     font-size: 16px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .filterTitle {
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     font-size: 16px;
 }
 
@@ -43,13 +43,13 @@
 }
 
 .filterAvailable .filterTitle {
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     font-size: 16px;
     text-transform: initial;
 }
 
 .filterItem {
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
     font-size: 14px;
     color: #000000;
     padding: 0.2rem 0;
@@ -58,7 +58,7 @@
 
 .filterItem--selected :global(.vtex-checkbox__label) {
     color: #000000;
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
     font-size: 14px;
     text-transform: capitalize;
 }
@@ -78,7 +78,7 @@
 
 .filterTemplateOverflow :global(.vtex-slider__left-value),
 .filterTemplateOverflow :global(.vtex-slider__right-value) {
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
     color: #000000;
     font-size: 14px;
 }
@@ -102,7 +102,7 @@
 
 .buttonShowMore :global(.vtex-button__label) {
     color: #0060aa;
-    font-family: "Lato-Bold";
+    font-family: "CenturyGothic-Bold";
 }
 
 .buttonShowMore :global(.vtex-button__label):hover {
@@ -112,23 +112,37 @@
 .showingProductsCount,
 .totalProductsMessage,
 .totalProducts--layout {
-    font-family: "Lato";
+    font-family: "CenturyGothic-Bold";
     color: #888a8b;
 }
 
 .galleryTitle--layout {
-    width: 40%;
     text-align: center;
     margin: 0;
-    font-family: "Lato-Bold";
-    color: #183152;
+    font-family: "CenturyGothic-Bold";
+    color: #fff;
     font-size: 3rem;
-    margin-left: 3rem;
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: auto;
     margin-top: -1rem;
+    position: relative;
+    z-index: 1  ;
+}
+
+.galleryTitle--layout::before {
+    content: "";
+    width: 200px;
+    height: 14px;
+    background-color: #128277;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    z-index: -1;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,114 @@
+{
+  "vtex.menu@2.x:menu#paginas": {
+    "children": [
+      "menu-item#paginas-title",
+      "menu-item#paginas-catalogo",
+      "menu-item#paginas-packbox",
+      "menu-item#paginas-promociones",
+      "menu-item#paginas-santera",
+      "menu-item#paginas-tiendita"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    }
+  },
+
+  // Title
+  "menu-item#paginas-title": {
+    "props": {
+      "id": "menu-item-paginas-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "paginas-title",
+        "text": "Páginas"
+      }
+    }
+  },
+  "menu-item#paginas-catalogo": {
+    "props": {
+      "id": "menu-item-paginas-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-catalogo",
+        "noFollow": true,
+        "tagTitle": "paginas-catalogo",
+        "text": "Catálogo"
+      }
+    }
+  },
+  "menu-item#paginas-packbox": {
+    "props": {
+      "id": "menu-item-paginas-packbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-packbox",
+        "noFollow": true,
+        "tagTitle": "paginas-packbox",
+        "text": "Packbox"
+      }
+    }
+  },
+  "menu-item#paginas-promociones": {
+    "props": {
+      "id": "menu-item-paginas-promociones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-promociones",
+        "noFollow": true,
+        "tagTitle": "paginas-promociones",
+        "text": "Promociones"
+      }
+    }
+  },
+  "menu-item#paginas-santera": {
+    "props": {
+      "id": "menu-item-paginas-santera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-santera",
+        "noFollow": true,
+        "tagTitle": "paginas-santera",
+        "text": "Santera"
+      }
+    }
+  },
+  "menu-item#paginas-tiendita": {
+    "props": {
+      "id": "menu-item-paginas-tiendita",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-tiendita",
+        "noFollow": true,
+        "tagTitle": "paginas-tiendita",
+        "text": "La tiendita"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.footerLayout {
+    background: linear-gradient(-26deg, #211f30 0%,#625c88 100%);
+    position: relative;
+}
+
+.footerLayout::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    width: 100%;
+    background-image: url(assets/home/logo-footer.png);
+    background-position: left center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+    .footerLayout::before {
+        padding-left: 0;
+        width: 100%;
+        background-position: center;
+        background-size: 200%;
+    }
+}

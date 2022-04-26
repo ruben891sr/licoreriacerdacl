@@ -2,10 +2,11 @@
     "vtex.menu@2.x:menu#menu-mobile": {
         "children": [
             "menu-item#catalogo-mobile",
-            "menu-item#sobre-nosotros",
-            "menu-item#sucursales",
-            "menu-item#Contacto",
-            "menu-item#Cotizador",
+            "menu-item#pack-box",
+            "menu-item#promociones",
+            "menu-item#mayoristas",
+            "menu-item#santera",
+            "menu-item#tiendita",
             "rich-text#telefono-mobile",
             "rich-text#correo-mobile"
         ],

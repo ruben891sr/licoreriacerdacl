@@ -1,23 +1,68 @@
 {
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#section-texto-seo",
-
+      "flex-layout.row#newsletter",
       "flex-layout.row#footer-menu",
       "flex-layout.row#footer-info"
     ]
   },
+
+  // Newsletter
+  "flex-layout.row#newsletter": {
+    "children":[
+      "flex-layout.col#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+
+  // Main Menu
   "flex-layout.row#footer-menu": {
     "children": [
-      "flex-layout.col#servicio-al-cliente",
-      "flex-layout.col#corporativo",
-      "flex-layout.col#contacto",
-      "flex-layout.col#newsletter"
+      "flex-layout.col#favoritos",
+      "flex-layout.col#paginas",
+      "flex-layout.col#informativo",
+      "flex-layout.col#rrss"
     ],
     "props": {
       "blockClass": "footer-menu"
     }
   },
+  "flex-layout.col#favoritos": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#favoritos"
+    ]
+  },
+  "flex-layout.col#paginas": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#paginas"
+    ]
+  },
+  "flex-layout.col#informativo": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#informativo"
+    ]
+  },
+  "flex-layout.col#rrss": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#rrss"
+    ]
+  },
+
+// Logo Footer
   "flex-layout.row#footer-info": {
     "children": [
       "flex-layout.col#medios-de-pago",
@@ -27,30 +72,6 @@
     "props": {
       "blockClass": "footer-info"
     }
-  },
-  "flex-layout.col#servicio-al-cliente": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#servicio-al-cliente"
-    ]
-  },
-  "flex-layout.col#corporativo": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#corporativo"
-    ]
-  },
-  "flex-layout.col#contacto": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#contacto"
-    ]
   },
   "flex-layout.col#medios-de-pago": {
     "props": {
@@ -62,6 +83,26 @@
       "image#webpay",
       "image#tarjetas",
       "image#compra-segura"
+    ]
+  },
+  "flex-layout.col#logo-corporativo": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "footer-info"
+    },
+    "children": [
+      "image#sr",
+      "image#vtex"
+    ]
+  },
+  "flex-layout.col#tienda": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#copyright"
     ]
   },
   "image#webpay": {
@@ -84,17 +125,6 @@
       "blockClass": "compra-segura",
       "maxHeight": 18
     }
-  },
-  "flex-layout.col#logo-corporativo": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "blockClass": "footer-info"
-    },
-    "children": [
-      "image#sr",
-      "image#vtex"
-    ]
   },
   "image#vtex": {
     "props": {
@@ -120,21 +150,12 @@
       }
     }
   },
-  "flex-layout.col#tienda": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "rich-text#copyright"
-    ]
-  },
   "rich-text#copyright": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "© Junaplas todos los derechos reservados",
+      "text": "© Licorería los derechos reservados",
       "blockClass": "copyright"
     }
   }
-}
+} 

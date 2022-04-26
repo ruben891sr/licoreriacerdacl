@@ -1,0 +1,116 @@
+{
+  "vtex.menu@2.x:menu#favoritos": {
+    "children": [
+      "menu-item#favoritos-title",
+      "menu-item#favoritos-cervezas",
+      "menu-item#favoritos-vinos",
+      "menu-item#favoritos-destilados",
+      "menu-item#favoritos-abyj",
+      "menu-item#favoritos-cocteles"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    }
+  },
+
+  // Título
+  "menu-item#favoritos-title": {
+    "props": {
+      "id": "menu-item-favoritos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "favoritos",
+        "text": "Favoritos"
+      }
+    }
+  },
+
+  // Items
+  "menu-item#favoritos-cervezas": {
+    "props": {
+      "id": "menu-item-favoritos-cervezas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas",
+        "noFollow": true,
+        "tagTitle": "favoritos-cervezasas",
+        "text": "Cervezas"
+      }
+    }
+  },
+  "menu-item#favoritos-vinos": {
+    "props": {
+      "id": "menu-item-favoritos-vinos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos",
+        "noFollow": true,
+        "tagTitle": "favoritos-vinosvezas",
+        "text": "Vinos"
+      }
+    }
+  },
+  "menu-item#favoritos-destilados": {
+    "props": {
+      "id": "menu-item-favoritos-destilados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/destilados",
+        "noFollow": true,
+        "tagTitle": "favoritos-destilados",
+        "text": "Destilados"
+      }
+    }
+  },
+  "menu-item#favoritos-abyj": {
+    "props": {
+      "id": "menu-item-favoritos-abyj",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/favoritos-abyj",
+        "noFollow": true,
+        "tagTitle": "favoritos-abyjrvezas",
+        "text": "Aguas, bebidas y jugos"
+      }
+    }
+  },
+  "menu-item#favoritos-cocteles": {
+    "props": {
+      "id": "menu-item-favoritos-cocteles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/favoritos-cocteles",
+        "noFollow": true,
+        "tagTitle": "favoritos-coctelesas",
+        "text": "Cócteles"
+      }
+    }
+  }
+}
