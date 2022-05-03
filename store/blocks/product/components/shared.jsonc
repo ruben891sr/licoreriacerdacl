@@ -80,7 +80,7 @@
       "blockClass": "title-similares",
       "recommendation": "view",
       "productList": {
-        "titleText": "Productos Complementarios",
+        "titleText": "Productos Relacionados",
         "itemsPerPage": 5,
         "minItemsPerPage": 2,
         "maxItems": 10

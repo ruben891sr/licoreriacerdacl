@@ -3,7 +3,7 @@
       "children": [
         "flex-layout.row#searchbread",
         "breadcrumb",
-        "flex-layout.row#searchtitle",
+        "flex-layout.row#banner-category",
         "flex-layout.row#btn-filter-mobile",
         "flex-layout.row#searchinfomobile",
         "flex-layout.row#fetchprevious",

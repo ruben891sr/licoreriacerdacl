@@ -38,7 +38,8 @@
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true,
-      "contentType": "images"
+      "contentType": "images",
+      "blockClass": "pdp-images"
     }
   },
   //---------------------- Desktop: right side of the product detail ---------
@@ -52,17 +53,18 @@
     "children": [
       "vtex.store-components:product-name",
       "product-identifier.product",
+      "product-description",
       "flex-layout.row#product-price",
       //"flex-layout.row#savings-price",
-      "product-specification-group#cantidad-de-venta",
+      // "product-specification-group#cantidad-de-venta",
       "vtex.product-highlights@2.x:product-highlights",
-      "product-separator",
-      "flex-layout.row#group-section-right",
-      "flex-layout.row#group-section",
-      //"flex-layout.row#sku-selector",
-      "flex-layout.row#buy-button",
       // "product-separator",
-      "flex-layout.row#details-section"
+      // "flex-layout.row#group-section-right",
+      // "flex-layout.row#group-section",
+      //"flex-layout.row#sku-selector",
+      "flex-layout.row#buy-button"
+      // "product-separator",
+      // "flex-layout.row#details-section"
       // "flex-layout.row#description"
     ]
   },
@@ -170,6 +172,7 @@
       "marginBottom": 5
     },
     "children": [
+      "product-quantity",
       "flex-layout.col#add-to-cart-button#pdp"
     ]
   },

@@ -165,15 +165,17 @@
 }
 
 .flexCol--pdp-add-to-cart :global(.vtex-button) {
-    border-radius: 4px;
-    background: #0060aa;
-    border-color: #0060aa;
+    border-radius: 3px;
+    background: #D84C4C;
+    border-color: #D84C4C;
+    height: 50px;
+    padding: 1rem 5rem;
     transition: ease-in-out 400ms;
 }
 
 .flexCol--pdp-add-to-cart :global(.vtex-button):hover {
-    border-color: #183152;
-    background: #183152;
+    border-color: #862020;
+    background: #862020;
 }
 
 .flexRowContent--pdp-calltoAction-conatiner {
@@ -185,8 +187,8 @@
 
 .flexRowContent--pdp-calltoAction-buy-button {
     align-items: center;
-    width: 80%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: flex-start;
 }
 
 .flexRow--details-section {
@@ -273,12 +275,31 @@
     margin: 5rem 0;
 }
 
+.flexRowContent--product-price {
+    margin-top: 2rem;
+}
+
 .flexColChild--search-category {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     overflow: hidden;
+}
+
+.flexColChild--filterCol {
+    background-color: #fafafa;
+    border: 1px solid #f2f2f2;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 25px rgb(51 51 51 / 20%);
+}
+
+.flexRow--productCountRow {
+    display: none;
+}
+
+.flexCol--productCountCol {
+    width: auto !important;
 }
 
 .flexColChild--search-category::before {
@@ -334,10 +355,12 @@
         position: relative;
         width: 100vw !important;
         overflow-x: scroll;
-        height: 40px;
+        height: 60px;
     }
     .flexRowContent--mobile-product-main {
         padding-top: 0;
+        width: 95%;
+        margin: 0 auto;
     }
     .flexRow--mobile-pdp-top {
         padding: 1rem;
@@ -352,8 +375,11 @@
         width: 100%;
     }
     .flexColChild--filterMobileCol {
-        border: 1px solid #0260aa;
+        border: 1px solid #f2f2f2;
         margin: 1rem 0 0.3rem 0;
+        padding: 0.5rem;
+        background-color: #fafafa;
+        box-shadow: 0 0 25px rgb(51 51 51 / 20%);
     }
     .container--title-sucursal {
         justify-content: center;
@@ -373,5 +399,8 @@
     }
     .flexRow--newsletter {
         padding-top: 3rem;
+    }
+    .flexCol--pdp-add-to-cart :global(.vtex-button) {
+        padding: 1rem;
     }
 }

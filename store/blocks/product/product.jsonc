@@ -3,8 +3,7 @@
     "blocks": [
       "responsive-layout.desktop#desktop-products",
       "responsive-layout.mobile#mobile-product",
-      "flex-layout.row#desktop-product-shelf-complementarios",
-      "flex-layout.row#desktop-product-shelf-alternativos"
+      "flex-layout.row#desktop-product-shelf-complementarios"
     ]
   }
 }

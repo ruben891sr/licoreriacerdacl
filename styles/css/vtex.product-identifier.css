@@ -3,5 +3,18 @@
 .product-identifier__separator {
   font-family: "CenturyGothic-Bold";
   font-size: 14px;
-  color: #3d3d3d;
+  color: #666;
 }
+
+.product-identifier {
+  margin-bottom: 1.3rem;
+  display: block;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .product-identifier {
+    text-align: center;
+  }
+}
+

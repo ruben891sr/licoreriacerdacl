@@ -16,9 +16,9 @@
 .link--15,
 .link--16,
 .link--17 {
-    font-size: 12px;
+    font-size: 14px;
     font-family: "CenturyGothic-Bold";
-    color: #888a8b;
+    color: #211F30;
     text-transform: capitalize;
 }
 
@@ -28,10 +28,22 @@
 
 .homeLink::before {
     content: "Home";
-    font-size: 12px;
+    font-size: 14px;
     font-family: "CenturyGothic-Bold";
-    color: #888a8b;
+    color: #211F30;
     display: block;
+}
+
+.caretIcon {
+    color: #128277;
+    margin: 0 0.7rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
 }
 
 @media screen and (max-width: 1024px) {

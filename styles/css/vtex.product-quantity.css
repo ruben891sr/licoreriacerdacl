@@ -49,5 +49,7 @@
         color: #c63335;
         width: 100%;
     }
-
+.quantitySelectorContainer--pdp-quantity {
+    width: auto !important;
+}
 }

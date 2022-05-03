@@ -8,7 +8,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo.svg"
+      "url": "assets/logo-new.svg"
     }
   },
   "minicart.v2": {
@@ -26,7 +26,7 @@
     "children": [
       "minicart-product-list",
       "flex-layout.row#minicart-footer"
-    ]
+    ] 
   },
   "flex-layout.row#minicart-footer": {
     "props": {

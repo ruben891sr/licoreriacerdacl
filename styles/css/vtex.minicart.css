@@ -19,11 +19,12 @@
 }
 
 .minicartTitle {
-    font-size: 0;
+    font-size: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 1rem;
     position: relative;
+    width: fit-content;
 }
 
 .minicartTitle::before {
@@ -37,24 +38,32 @@
 
 .minicartTitle::after {
     content: "";
-    margin: 0 auto;
-    left: 0;
-    right: 0;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
     width: 80%;
-    background: #0060aa;
+    background: #C1E1DC;
     position: absolute;
-    height: 1px;
-    bottom: -4px;
+    height: 9px;
+    bottom: 0;
+    z-index: -1;
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-    background-color: #0060aa;
-    font-size: 0;
-    border-radius: 0;
+    background-color: #D84C4C;
+    border-radius: 3px;
+    text-transform: capitalize;
+    padding: 1rem;
+    border: 0;
+    box-shadow: 0 0 25px rgb(51 51 51 / 20%);
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+    font-family: "CenturyGothic-Bold";
 }
 
 .minicartCheckoutButton :global(.vtex-button):hover {
-    background: #4EA2E2;
+    background: #8e2626;
     border: 0;
 }
 

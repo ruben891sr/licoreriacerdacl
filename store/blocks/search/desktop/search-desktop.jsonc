@@ -135,7 +135,11 @@
     "children": [
       "flex-layout.col#productCount",
       "flex-layout.col#orderby"
-    ]
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "orderBy-row"
+    }
   },
   "flex-layout.col#productCount": { 
     "children": [
