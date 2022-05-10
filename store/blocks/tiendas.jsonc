@@ -1,5 +1,5 @@
 {
-  "store.custom#sucursales": {
+  "store.custom#tiendas": {
     "blocks": [
       "flex-layout.row#covid",
       "flex-layout.row#sucursales"
@@ -22,7 +22,7 @@
       "blockClass": "junaplas-covid",
       "fullWidth": "true",
       "horizontalAlign": "center"
-    }
+    } 
   },
   "flex-layout.col#sucursales": {
     "children": [

@@ -1,173 +1,118 @@
 {
   "store.custom#contacto": {
     "blocks": [
-      "flex-layout.row#form-contacto"
+      "flex-layout.row#form"
     ]
   },
-  "flex-layout.row#junaplas-image": {
-    "children": [
-      "image#junaplas-image"
-    ],
+
+  "flex-layout.row#form": {
     "props": {
-      "blockClass": "junaplas-image",
-      "fullWidth": true
-    }
+      "blockClass": "rowFormularioContacto"
+    },
+    "children": ["flex-layout.col#form"]
   },
-  "image#junaplas-image": {
+
+  //Formulario Contacto
+  "flex-layout.col#form": {
     "props": {
-      "src": "assets/junaplas-tienda.jpg",
-      "maxWidth": 1440,
-      "alt": "banner descuentos",
-      "blockClass": "junaplas-image"
-    }
-  },
-  "flex-layout.row#form-contacto": {
-    "children": [
-      "flex-layout.col#form-contacto"
-    ],
-    "props": {
-      "blockClass": "form-contacto-junaplas",
-      "fullWidth": true
-    }
-  },
-  "flex-layout.col#form-contacto": {
-    "children": [
-      "image#junaplas-image",
-      "rich-text#formTitle",
-      "form#contacto-junaplas"     
-      // "disclosure-layout#simple",
-      // "overlay-trigger"
-    ],
-    "props": {
-      "blockClass": "form-contacto-junaplas",
-      "fullWidth": true
-    }
-  },
-  "form#contacto-junaplas": {
-    "props": {
-      "entity": "contacto",
-      "schema": "formularios",
-      "blockClass": "form-contacto-junaplas"
+      "width": "35%",
+      "blockClass": "colFormularioContacto"
     },
     "children": [
-      //"rich-text#formTitle"
-      "form-input.text#firstName",
-      "form-input.text#lastName",
-      "form-input.text#mail",
-      "form-input.textarea#mensaje",
-      // //"form-field-group#address",
-      // //"form-input.checkbox#agreement",
-      "form-submit"
-    ],
-    "blocks": [
-      "form-success"
+      // "form#contacto"
     ]
   },
-  "rich-text#formTitle": {
+
+  "form#contacto": {
     "props": {
-      "text": "Formulario de Contacto",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass":"formtitle"
-    }
-  },
-  "form-success": {
+      "entity": "cont",
+      "schema": "formu"
+    },
     "children": [
-      "rich-text#successSubmit"
-    ]
+      "rich-text#formTitle",
+      "form-input.text#nombreContacto",
+      "form-input.text#apellidoContacto",
+      "form-input.text#emailContacto",
+      "form-input.text#telefonoContacto",
+      "form-input.dropdown#tipoContacto",
+      "form-input.textarea#mensajeContacto",
+      "form-submit#enviarContacto",
+      "rich-text#nuestrasTiendas"
+    ],
+    "blocks": ["form-success#contacto"]
   },
-  "rich-text#successSubmit": {
+  "form-success#contacto": {
+    "children": ["rich-text#successSubmitContacto"]
+  },
+
+  "rich-text#successSubmitContacto": {
     "props": {
-      "text": "Succesfully submitted the data!",
+      "text": "¡Datos enviados exitosamente!",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-  "form-input.text#firstName": {
+
+  // Campos de Formulario
+  "rich-text#formTitle": {
     "props": {
-      "label": "Nombre",
-      "pointer": "#/properties/nombre"
+      "text": "## Contacto",
+      "blockClass": "titleContacto"
     }
   },
-  "form-input.text#lastName": {
+
+  "form-input.text#nombreContacto": {
     "props": {
-      "label": "Apellido",
-      "pointer": "#/properties/apellido"
+      "pointer": "#/properties/nombre",
+      "label": "Nombre"
     }
   },
-  //   "form-input.checkbox#agreement": {
-  //     "props": {
-  //       "pointer": "#/properties/agreement",
-  //       "label": "Do you agree that this is the best form component in the whole wide world?"
-  //     }
-  //   },
-  "form-input.text#mail": {
+
+  "form-input.text#apellidoContacto": {
     "props": {
-      "label": "mail",
-      "pointer": "#/properties/mail"
+      "pointer": "#/properties/apellido",
+      "label": "Apellido"
     }
   },
-  "form-input.textarea#mensaje": {
+
+  "form-input.text#emailContacto": {
     "props": {
-      "label": "mensaje",
-      "pointer": "#/properties/mensaje"
+      "pointer": "#/properties/mail",
+      "label": "correo electrónico"
     }
   },
-  "form-submit": {
+
+  "form-input.text#telefonoContacto": {
+    "props": {
+      "pointer": "#/properties/telefono",
+      "label": "Teléfono"
+    }
+  },
+
+  "form-input.dropdown#tipoContacto": {
+    "props": {
+      "pointer": "#/properties/tipo/properties/selectTipo",
+      "label": "Motivo"
+    }
+  },
+
+  "form-input.textarea#mensajeContacto": {
+    "props": {
+      "pointer": "#/properties/mensaje",
+      "label": "Descripción"
+    }
+  },
+
+  "form-submit#enviarContacto": {
     "props": {
       "label": "Enviar"
     }
   },
-  "disclosure-layout#simple": {
-    "children": [
-      "disclosure-trigger#simple",
-      "disclosure-content#simple"
-    ]
-  },
-  "disclosure-trigger#simple": {
-    "children": [
-      "rich-text#question"
-    ]
-  },
-  "disclosure-content#simple": {
-    "children": [
-      "rich-text#answer"
-    ]
-  },
-  "rich-text#question": {
+
+  "rich-text#nuestrasTiendas": {
     "props": {
-      "text": "How can I change my shipping address?"
-    }
-  },
-  "rich-text#answer": {
-    "props": {
-      "text": "Call us at the number (212) 1234-1234"
-    }
-  },
-  "overlay-trigger": {
-    "children": [
-      "rich-text#question2",
-      "overlay-layout"
-    ]
-  },
-  "rich-text#question2": {
-    "props": {
-      "text": "**Search",
-      "blockClass": "question"
-    }
-  },
-  "overlay-layout": {
-    "props": {
-      "placement": "top"
-    },
-    "children": [
-      "rich-text#link"
-    ]
-  },
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "blockClass": "nuestrasTiendas",
+      "text": "Revisa nuestras tiendas [Aquí](/stores)"
     }
   }
 }
