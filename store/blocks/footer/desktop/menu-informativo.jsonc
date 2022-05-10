@@ -38,7 +38,7 @@
       "blockClass": "footer-subtitle",
       "itemProps": {
         "type": "internal",
-        "href": "/informativo-tienda",
+        "href": "/tiendas",
         "noFollow": true,
         "tagTitle": "informativo-tienda",
         "text": "Tiendas"

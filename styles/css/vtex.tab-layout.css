@@ -48,6 +48,8 @@
 }
 .container--sucursales {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5rem;
 }
 .listContainer--tab-list-sucursales {
@@ -95,7 +97,7 @@
   background: #f2f2f2;
   margin-left: 0;
   margin-top: 0;
-  box-shadow: inset 3px 0 0 #4ea2e2;
+  box-shadow: inset 3px 0 0 #128277;
 }
 .listItem--tab-item-sucursales :global(.vtex-button__label) {
   color: #000000;
@@ -106,7 +108,7 @@
   text-align: left;
 }
 
-.listItem--tab-item-sucursales::after {
+/* .listItem--tab-item-sucursales::after {
   content: "";
   background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%23CACACA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
   width: 5px;
@@ -128,7 +130,7 @@
   position: absolute;
   right: 1rem;
   z-index: 10;
-}
+} */
 @media screen and (max-width: 640px) {
   .listItem,
   .listItem :global(.vtex-button) {

@@ -1,7 +1,6 @@
 {
   "store.custom#tiendas": {
     "blocks": [
-      "flex-layout.row#covid",
       "flex-layout.row#sucursales"
     ]
   },
@@ -13,16 +12,6 @@
       "blockClass": "junaplas-sucursales",
       "width": "80%"
     }
-  },
-  "flex-layout.row#covid": {
-    "children": [
-      "flex-layout.col#covid"
-    ],
-    "props": {
-      "blockClass": "junaplas-covid",
-      "fullWidth": "true",
-      "horizontalAlign": "center"
-    } 
   },
   "flex-layout.col#sucursales": {
     "children": [
@@ -50,9 +39,9 @@
       "tab-list.item#lo-ovalle",
       "tab-list.item#san-pablo",
       "tab-list.item#gran-avenida",
-      "tab-list.item#san-diego",
-      "tab-list.item#santa-rosa",
-      "tab-list.item#santa-rosa-cotillon"
+      "tab-list.item#san-diego"
+      // "tab-list.item#santa-rosa"
+      // "tab-list.item#santa-rosa-cotillon"
     ],
     "props": {
       "blockClass": "tab-list-sucursales"
@@ -392,7 +381,7 @@
       "callToActionMode": "none",
       "blockClass": "sucursal-info",
       "textMode": "rich-text",
-      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/cotillon-Lo-Ovalle-300x227.jpg"
+      "imageUrl": "assets/prueba-sucursales.jpg"
     }
   },
   "iframe#ovalle": {
@@ -412,7 +401,7 @@
       "callToActionMode": "none",
       "blockClass": "sucursal-info",
       "textMode": "rich-text",
-      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/sp20-1-300x227.jpg"
+      "imageUrl": "assets/prueba-sucursales.jpg"
     }
   },
   "iframe#san-pablo": {
@@ -432,7 +421,7 @@
       "callToActionMode": "none",
       "blockClass": "sucursal-info",
       "textMode": "rich-text",
-      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/ga30-300x227.jpg"
+      "imageUrl": "assets/prueba-sucursales.jpg"
     }
   },
   "iframe#gran-avenida": {
@@ -452,7 +441,7 @@
       "callToActionMode": "none",
       "blockClass": "sucursal-info",
       "textMode": "rich-text",
-      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/IMG_0716-1024x768.jpg"
+      "imageUrl": "assets/prueba-sucursales.jpg"
     }
   },
   "iframe#san-diego": {
@@ -492,7 +481,7 @@
       "callToActionMode": "none",
       "blockClass": "sucursal-info",
       "textMode": "rich-text",
-      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/IMG_1768-1024x768.jpg"
+      "imageUrl": "assets/prueba-sucursales.jpg"
     }
   },
   "iframe#santa-rosa-cotillon": {
@@ -520,103 +509,6 @@
       "width": "100%",
       "height": "500",
       "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13305.518120328583!2d-70.6514267565454!3d-33.51751671908621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da92fee8a709%3A0xed35a9b0728d16b7!2sJunaplas!5e0!3m2!1ses!2scl!4v1627329240593!5m2!1ses!2scl"
-    }
-  },
-  "flex-layout.col#covid": {
-    "children": [
-      "modal-trigger#covid"
-    ],
-    "props": {
-      "blockClass": "info-covid",
-      "width": "100%",
-      "horizontalAlign": "center"
-    }
-  },
-  "rich-text#covid": {
-    "props": {
-      "text": "MIENTRAS DURE LA CONTINGENCIA SANITARIA POR EL COVID-19, LE AGRADECEREMOS VERIFICAR **AQUÍ** LA DISPONIBILIDAD Y HORARIO DISPONIBLE PARA NUESTRAS TIENDAS.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "info-covid"
-    }
-  },
-  "modal-trigger#covid": {
-    "children": [
-      "rich-text#covid",
-      "modal-layout#covid"
-    ],
-    "props": {
-      "blockClass": "info-covid"
-    }
-  },
-  "modal-layout#covid": {
-    "children": [
-      "modal-header#covid",
-      "modal-content#covid"
-    ],
-    "props": {
-      "blockClass": "info-covid"
-    }
-  },
-  "modal-header#covid": {
-    "props": {
-      "showCloseButton": true,
-      "iconCloseSize": 24
-    }
-  },
-  "modal-content#covid": {
-    "children": [
-      "flex-layout.row#content-covid"
-    ],
-    "props": {
-      "scroll": "body",
-      "blockClass": "content-covid",
-      "disableEscapeKeyDown": true,
-      "fullScreen": true,
-      "backdrop": "none"
-    }
-  },
-  "flex-layout.row#content-covid": {
-    "children": [
-      "flex-layout.col#content-covid"
-    ],
-    "props": {
-      "blockClass": "info-covid",
-      "width": "100%",
-      "horizontalAlign": "center"
-    }
-  },
-  "flex-layout.col#content-covid": {
-    "children": [
-      "rich-text#content-horarios",
-      "image#tabla-tiendas",
-      "rich-text#content-contacto"
-    ],
-    "props": {
-      "blockClass": "content-covid",
-      "width": "100%",
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
-    }
-  },
-  "rich-text#content-horarios": {
-    "props": {
-      "text": "**Estimado cliente** \n Debido a la contingencia sanitaria, producto de la pandemia de Covid 19, estamos haciendo nuestros mayores esfuerzos para mantener en nuestras tiendas un entorno seguro para nuestros clientes y colaboradores. \n **Tiendas Abiertas:** \n LO OVALLE 611 – SAN PABLO 2574 – SANTA ROSA 7890 – SAN DIEGO 2212.",
-      "blockClass": "texto-modal"
-    }
-  },
-  "image#tabla-tiendas": {
-    "props": {
-      "src": "assets/table-tiendas.png",
-      "maxWidth": 700,
-      "alt": "tabla tiendas",
-      "blockClass": "image-tabla"
-    }
-  },
-  "rich-text#content-contacto": {
-    "props": {
-      "text": "Debido a las cuarentenas ordenadas por la autoridad, algunas de nuestras tiendas **PERMANECERÁN CERRADAS**, sin embargo seguimos atendiendo a través de nuestros teléfonos ([+56 2 2330 6500](tel:+56223306500) - [+56 2 2330 6501](tel:+56223306501) - [+56 2 2330 6502](tel:+56223306502) - [+56 2 2330 6503](tel:+56223306503) - [+56 2 2330 6504](tel:+56223306504) - [+56 2 2330 6505](tel:+56223306505)) o a nuestro correo [ventas@junaplas.cl](mailto:ventas@junaplas.cl), con despacho a domicilio o en el formulario continuación.",
-      "blockClass": "contacto-modal"
     }
   }
 }

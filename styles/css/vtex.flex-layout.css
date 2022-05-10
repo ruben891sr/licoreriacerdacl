@@ -319,6 +319,12 @@
     margin-top: 2rem;
 }
 
+.flexRowContent--info-sucursales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1024px) {
     .flexCol--footer-info:nth-child(1n) {
         margin-bottom: 1rem;

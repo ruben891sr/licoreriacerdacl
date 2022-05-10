@@ -317,6 +317,7 @@
 
 .infoCardContainer--sucursal-info {
     flex-direction: column-reverse;
+    background-color: transparent;
 }
 
 .paragraph--sucursal-info {
