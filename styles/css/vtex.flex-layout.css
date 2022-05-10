@@ -409,4 +409,11 @@
     .flexCol--pdp-add-to-cart :global(.vtex-button) {
         padding: 1rem;
     }
+    .flexRowContent--info-sucursales {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .flexCol--info-sucursales {
+        margin-bottom: 2rem;
+    }
 }
