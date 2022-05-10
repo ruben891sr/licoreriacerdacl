@@ -14,4 +14,12 @@
   font-family: "CenturyGothic-BoldItalic";
   src: url(assets/fonts/CenturyGothic-BoldItalic.ttf);
 }
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url(assets/fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Dense-Regular";
+  src: url(assets/fonts/Dense-Regular.otf);
+}
  

@@ -19,23 +19,24 @@
 }
 
 .infoCardCallActionContainer--caluga-image :global(.vtex-button) {
-    background: #128277;
-    border: 1px solid #128277;
-    padding: 0.5rem 2rem;
+    background: #D84C4C;
+    border: 1px solid #D84C4C;
+    padding: 1rem 2rem;
     font-family: "CenturyGothic-Bold";
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 50px;
 }
 
 .infoCardCallActionContainer--caluga-image :global(.vtex-button):hover {
-    background: #10645c;
-    border: 1px solid #10645c;
+    background: #b73838;
+    border: 1px solid #b73838;
 }
 
 .infoCardCallActionContainer--caluga-image :global(.vtex-button__label) {
-    font-size: 1rem;
-    font-family: "CenturyGothic-Bold";
+    font-size: 3rem;
+    font-family: "Dense-Regular";
     text-transform: initial;
-    padding: 0 1.5rem;
+    padding: 0 !important;
     color: #ffffff;
 }
 
@@ -103,6 +104,8 @@
 .infoCardImageContainer--caluga-image {
     width: 100%;
     box-shadow: 0 0 20px rgb(51 51 51 / 40%);
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 .infoCardImage--caluga-image {
@@ -148,6 +151,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 .logoImage {
@@ -177,7 +181,8 @@
 }
 
 .logoContainer {
-    margin-left: 2rem;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .imageElement--image-category {
@@ -396,6 +401,16 @@
     position: relative;
     background-color: #fafafa;
     border-radius: 3px;
+}
+
+.infoCardImage--caluga-image {
+    display: block;
+    max-width: 101%;
+}
+
+.imageElement--main-banner {
+    display: block;
+    border-radius: 6px;
 }
 
 @media screen and (max-width: 1024px) {

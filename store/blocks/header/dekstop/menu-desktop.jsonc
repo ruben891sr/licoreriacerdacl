@@ -4,6 +4,7 @@
         "menu-item#catalogo",
         "menu-item#pack-box",
         "menu-item#promociones",
+        "menu-item#suscripciones",
         "menu-item#mayoristas",
         "menu-item#santera",
         "menu-item#tiendita"
@@ -58,6 +59,22 @@
             "noFollow": true,
             "tagTitle": "promociones",
             "text": "Promociones"
+          }
+        }
+      },
+      "menu-item#suscripciones": {
+        "props": {
+          "id": "menu-item-suscripciones", 
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "suscripciones",
+            "text": "Suscripciones"
           }
         }
       },

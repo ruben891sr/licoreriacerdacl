@@ -39,7 +39,7 @@
   display: flex;
   position: relative;
   margin-right: 2rem;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-weight: 500;
 }
 
@@ -58,13 +58,13 @@
 
 .headingLevel3--title-carousel-mas-vendidos {
   color: #211F30;
-  font-size: 30px;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   width: 100%;
   text-align: left;
-  font-family: "CenturyGothic-Bold";
-  margin: 1rem 0px 2rem;
+  font-family: "BebasNeue-Regular";
+  margin: 1rem 0 0 0;
   justify-content: center;
   position: relative;
   font-weight: 500;
@@ -83,6 +83,7 @@
   margin-left: auto;
   z-index: -1;
   margin-right: auto;
+  display: none;
 }
 
 .paragraph--section-texto-seo {
@@ -105,7 +106,7 @@
 .link--section-texto-seo-dpto, .link--section-texto-seo {
   text-decoration: none;
   color: inherit;
-}
+}  
 .link--section-texto-seo-dpto {
   margin: 0 0.3rem;
 }
@@ -117,7 +118,7 @@
 
 .paragraph--nosotros-text {
   font-size: 16px;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   line-height: 2;
 }
 
@@ -128,27 +129,27 @@
 
 .paragraph--contacto {
   color: #211F30;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 13px;
 }
 
 .paragraph--telefono {
   color: #ffffff;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   margin-left: 40px;
   font-size: 12px;
 }
 
 .paragraph--horario {
   color: #ffffff;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   margin-right: 40px;
 }
 
 .paragraph--tienda {
   color: #ffffff;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   margin-right: 38px;
 }
@@ -160,8 +161,8 @@
   align-items: center;
   width: 100%;
   text-align: left;
-  font-family: ""CenturyGothic-Bold"";
-  margin: 2rem 0;
+  font-family: "CenturyGothic-Bold";
+  margin: 0 0 1rem 0;
   justify-content: center;
   position: relative;
   font-weight: 500;
@@ -181,20 +182,20 @@
 
 .paragraph--footer-subtitle {
   color: #000000;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   text-decoration: none;
 }
 
 .link--footer-subtitle {
   color: #000000;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   text-decoration: none;
 }
 
 .paragraph--footer-title {
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 18px;
   margin-bottom: 1rem;
   color: #000000;
@@ -203,7 +204,7 @@
 }
 
 .paragraph--copyright {
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 12px;
   color: #ffffff;
   margin: 0;
@@ -216,7 +217,7 @@
 
 .paragraph--submenu-catalogo {
   font-size: 12px;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   margin: 0;
   padding: 0 1rem;
 }
@@ -241,7 +242,7 @@
 
 .link--telefono-mobile,
 .link--correo-mobile {
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
   color: #000000;
   text-decoration: none;
@@ -366,7 +367,7 @@
 
 .paragraph--info-covid {
   color: #ffffff;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 14px;
 }
 
@@ -375,13 +376,13 @@
 }
 
 .container--texto-modal {
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
 .container--contacto-modal {
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   margin-top: 1.5rem;
 }
 
@@ -402,7 +403,7 @@
   cursor: pointer;
   color: #183152;
   margin-bottom: 0.75rem;
-  font-family: ""CenturyGothic-Bold"";
+  font-family: "CenturyGothic-Bold";
   font-size: 0.9rem;
   position: relative;
   display: flex;
@@ -473,7 +474,7 @@
     .headingLevel1--section-texto-seo {
         font-size: 23px;
         font-weight: 500;
-        font-family: ""CenturyGothic-Bold"";
+        font-family: "CenturyGothic-Bold";
     }
     .paragraph--footer-title {
         margin-bottom: 0.5rem;
@@ -527,7 +528,7 @@
   .headingLevel1--section-texto-seo {
     font-size: 23px;
     font-weight: 500;
-    font-family: ""CenturyGothic-Bold"";
+    font-family: "CenturyGothic-Bold";
   }
   .paragraph--footer-title {
     margin-bottom: 0.5rem;

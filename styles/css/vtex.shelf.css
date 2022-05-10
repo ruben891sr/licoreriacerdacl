@@ -1,14 +1,14 @@
 .title--title-similares {
     padding: 0;
     color: #221f30;
-    font-size: 1.5rem;
     display: inline-block;
     align-items: center;
     text-align: center;
-    font-family: CenturyGothic-Bold;
     position: relative;
     z-index: 1;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-family: "BebasNeue-Regular";
 }
 
 .title--title-similares::after {
@@ -23,6 +23,7 @@
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
+    display: none;
 }
 
 

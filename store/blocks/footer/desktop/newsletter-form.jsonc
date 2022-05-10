@@ -13,7 +13,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Suscríbete a nuestro newsletter",
+            "text": "Suscríbete a nuestras ofertas y novedades",
             "blockClass": "footer-title-newsletter"
         }
     },

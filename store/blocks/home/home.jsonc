@@ -31,7 +31,7 @@
     "children": ["list-context.image-list#slider-banner"],
     "props": {
       "blockClass": "main-banner-slider",
-      "fullWidth": true,
+      "fullWidth": false,
       "preserveLayoutOnMobile": true
     }
   },
@@ -213,35 +213,35 @@
   },
   "image#calugas-grid-1": {
     "props": {
-      "src": "assets/home/calugas-grid-01.jpg",
+      "src": "assets/home/calugas-gr-01.jpg",
       "alt": "calugas-grid",
       "blockClass": "calugas-grid-image"
     }
   },
   "image#calugas-grid-2": {
     "props": {
-      "src": "assets/home/calugas-grid-02.jpg",
+      "src": "assets/home/calugas-gr-02.jpg",
       "alt": "calugas-grid",
       "blockClass": "calugas-grid-image"
     }
   },
   "image#calugas-grid-3": {
     "props": {
-      "src": "assets/home/calugas-grid-03.jpg",
+      "src": "assets/home/calugas-gr-03.jpg",
       "alt": "calugas-grid",
       "blockClass": "calugas-grid-image"
     }
   },
   "image#calugas-grid-4": {
     "props": {
-      "src": "assets/home/calugas-grid-04.jpg",
+      "src": "assets/home/calugas-gr-04.jpg",
       "alt": "calugas-grid",
       "blockClass": "calugas-grid-image"
     }
   },
   "image#calugas-grid-5": {
     "props": {
-      "src": "assets/home/calugas-grid-05.jpg",
+      "src": "assets/home/calugas-gr-05.jpg",
       "alt": "calugas-grid",
       "blockClass": "calugas-grid-image"
     }

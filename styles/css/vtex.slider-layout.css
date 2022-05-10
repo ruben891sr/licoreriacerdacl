@@ -21,7 +21,12 @@
 }
 
 .paginationDotsContainer {
-    bottom: 0;
+    bottom: -5%;
+}
+
+.sliderLayoutContainer--main-banner {
+    box-shadow: 0 0 25px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
 }
 
 :global(.vtex-slider-layout-0-x-sliderTrackContainer) {
