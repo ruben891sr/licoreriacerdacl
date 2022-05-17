@@ -38,6 +38,8 @@
     text-transform: initial;
     padding: 0 !important;
     color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .infoCardCallActionContainer--caluga-image {
