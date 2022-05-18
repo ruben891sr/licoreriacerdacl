@@ -22,6 +22,10 @@
     border-color: #4ea2e2;
 }
 
+:global(.wrapper-banner img) {
+    display: block;
+}
+
 :global(.srconsultores-sr-orderquotes-0-x-containerList) {
     font-family: "CenturyGothic-Bold";
     color: #767575;

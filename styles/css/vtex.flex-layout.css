@@ -6,7 +6,6 @@
 }
 
 .flexRow--main-calugas-slider {
-    max-width: 1380px;
     width: 100%;
     margin: 0 auto 6rem auto;
 }
@@ -24,8 +23,7 @@
 }
 
 .flexRow--row-carousel-mas-vendidos {
-    max-width: 1380px;
-    width: 90%;
+    width: 100%; 
     margin: 0 auto 2.5rem;
 }
 

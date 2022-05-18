@@ -29,24 +29,13 @@
 }
 
 .filterMessage {
-    font-family: "CenturyGothic-Bold";
-    font-size: 16px;
-    font-size: 1.4rem;
+    padding: 0;
+    color: #221f30;
     display: inline-block;
-    position: relative;
-    z-index: 1;
+    font-size: 1.7rem;
+    font-family: "BebasNeue-Regular";
 }
 
-.filterMessage::before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 10px;
-    width: 110%;
-    background-color: #A7A1C9;
-    z-index: -1;
-    bottom: 0;
-}
 
 .filterTitleSpan {
     text-transform: capitalize;

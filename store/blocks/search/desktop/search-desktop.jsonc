@@ -34,8 +34,8 @@
   },
   "flex-layout.row#banner-category": {
     "children": [
-      "flex-layout.col#image-category",
-      "flex-layout.col#search-category"
+      "flex-layout.col#image-category"
+      // "flex-layout.col#search-category"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
