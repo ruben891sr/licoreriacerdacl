@@ -18,13 +18,13 @@
           "mode2": "normal"
         }, 
         "hiddenFacets": {
-          "priceRange": false,
-          "specificationFilters": {
-            "hiddenFilters": [
-                // { "name": "Lanzamiento" },
-                // { "name": "Tipo" }
-            ]
-          }
+          "priceRange": false
+          // "specificationFilters": {
+          //   "hiddenFilters": [
+          //       { "name": "Lanzamiento" },
+          //       { "name": "Tipo" }
+          //   ]
+          // }
         }
       }
    

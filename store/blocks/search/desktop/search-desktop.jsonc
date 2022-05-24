@@ -9,19 +9,19 @@
       },
       "showFacetQuantity": false,
       "hiddenFacets": {
-        "priceRange": true,
-        "specificationFilters": {
-          "hiddenFilters": [
-            {
-              "name": "Marca"
-            },
-            { "name": "Departamento" },
-            {
-              "name": "Sub-Categoría"
-            },
-             { "name": "" }
-          ]
-        }
+        "priceRange": true
+        // "specificationFilters": {
+        //   "hiddenFilters": [
+        //     {
+        //       "name": "Marca"
+        //     },
+        //     { "name": "Departamento" },
+        //     {
+        //       "name": "Sub-Categoría"
+        //     },
+        //      { "name": "" }
+        //   ]
+        // }
       }
     },
     "children": [
@@ -180,19 +180,19 @@
       },
       "showFacetQuantity": false,
       "hiddenFacets": {
-        "priceRange": true,
-        "specificationFilters": {
-          "hiddenFilters": [
-            {
-              "name": "Marca"
-            },
-            { "name": "Departamento" },
-            {
-              "name": "Sub-Categoría"
-            },
-             { "name": "Gama de Precios" }
-          ]
-        }
+        "priceRange": true
+        // "specificationFilters": {
+        //   "hiddenFilters": [
+        //     {
+        //       "name": "Marca"
+        //     },
+        //     { "name": "Departamento" },
+        //     {
+        //       "name": "Sub-Categoría"
+        //     },
+        //      { "name": "Gama de Precios" }
+        //   ]
+        // }
       }
     },
     "children": [
@@ -213,19 +213,19 @@
       },
       "showFacetQuantity": false,
       "hiddenFacets": {
-        "priceRange": true,
-        "specificationFilters": {
-          "hiddenFilters": [
-            {
-              "name": "Marca"
-            },
-            { "name": "Departamento" },
-            {
-              "name": "Categoría"
-            },
-             { "name": "Gama de Precios" }
-          ]
-        }
+        "priceRange": true
+        // "specificationFilters": {
+        //   "hiddenFilters": [
+        //     {
+        //       "name": "Marca"
+        //     },
+        //     { "name": "Departamento" },
+        //     {
+        //       "name": "Categoría"
+        //     },
+        //      { "name": "Gama de Precios" }
+        //   ]
+        // }
       }
     },
     "children": [
@@ -246,19 +246,19 @@
       },
       "showFacetQuantity": false,
       "hiddenFacets": {
-        "priceRange": true,
-        "specificationFilters": {
-          "hiddenFilters": [
-            {
-              "name": "Marca"
-            },
-            { "name": "Departamento" },
-            {
-              "name": "Categoría"
-            },
-             { "name": "" }
-          ]
-        }
+        "priceRange": true
+        // "specificationFilters": {
+        //   "hiddenFilters": [
+        //     {
+        //       "name": "Marca"
+        //     },
+        //     { "name": "Departamento" },
+        //     {
+        //       "name": "Categoría"
+        //     },
+        //      { "name": "" }
+        //   ]
+        // }
       }
     },
     "children": [
