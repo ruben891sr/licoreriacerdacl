@@ -93,7 +93,7 @@
     "blocks": [
       "search-result-layout.desktop#subcategory",
       "search-result-layout.mobile",
-      "search-not-found-layout"
+      "search-not-found-layout" 
     ]
   }
 }
