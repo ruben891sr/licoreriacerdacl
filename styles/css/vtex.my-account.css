@@ -662,6 +662,69 @@ div:nth-child(4) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>div>labe
     margin: 0 0.3rem;
 }
 
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs) {
+    margin-bottom: 1.3rem;
+}
+
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs label) {
+    color: #333;
+    font-family: "CenturyGothic-Bold";
+    display: block;
+    padding-bottom: .3rem;
+}
+
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs input) {
+    display: block;
+    height: 45px;
+    border: solid 1px #ccc;
+    border-radius: 3px;padding-left: 1rem;
+}
+
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs .vtex-textarea__label),
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs .vtex-dropdown > label > span) {
+    color: #333;
+    font-family: "CenturyGothic-Bold";
+    display: block;
+}
+
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs .vtex-button) {
+    height: 45px;
+    border-radius: 3px;
+    border: 0;
+    transition: all .5s ease;
+    background-color: #128277;
+}
+
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs .vtex-button):hover {
+    height: 60px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #095c53;
+    transition: all .5s ease;
+}
+
+:global(.licoreriacerdacl-licoreriacerdacl-forms-0-x-rowInputs .vtex-button__label) {
+text-transform: capitalize;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--colFormularioContacto > div) {
+    position: relative;
+    padding-top: 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--colFormularioContacto > div)::before {
+    content: 'Contacto';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    color: #211f30;
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: "BebasNeue-Regular";
+    margin: 0;
+    font-weight: 500;
+}
 
 @media screen and (max-width: 1024px) {
      :global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div,

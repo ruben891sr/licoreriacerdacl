@@ -65,7 +65,8 @@
     "vtex.store-newsletter": "1.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.overlay-layout": "0.x",
-    "vtex.product-highlights": "2.x"
+    "vtex.product-highlights": "2.x",
+    "licoreriacerdacl.licoreriacerdacl-forms": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

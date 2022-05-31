@@ -19,12 +19,13 @@
       "blockClass": "colFormularioContacto"
     },
     "children": [
+      "licoreria-form"
       // "form#contacto"
     ]
   },
 
   "form#contacto": {
-    "props": {
+    "props": { 
       "entity": "cont",
       "schema": "formu"
     },

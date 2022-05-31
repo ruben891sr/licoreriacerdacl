@@ -1,0 +1,7 @@
+{
+  "store.custom#politicas-de-privacidad": {
+    "blocks": [
+      "rich-text#title-carousel"
+    ]
+  }
+}

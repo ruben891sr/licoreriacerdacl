@@ -4,5 +4,17 @@
       },
       "store.custom#tiendas": {
         "path": "/tiendas"
+      },
+      "store.custom#nosotros": {
+        "path": "/nosotros"
+      },
+      "store.custom#temrinos-y-condiciones": {
+        "path": "/temrinos-y-condiciones"
+      },
+      "store.custom#politicas-de-privacidad": {
+        "path": "/politicas-de-privacidad"
+      },
+      "store.custom#ventas-otec": {
+        "path": "/ventas-otec"
       }
 } 

@@ -1,0 +1,7 @@
+{
+  "store.custom#ventas-otec": {
+    "blocks": [
+      "rich-text#title-carousel"
+    ]
+  }
+}

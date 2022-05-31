@@ -3,8 +3,9 @@
     "children": [
       "menu-item#informativo-title",
       "menu-item#informativo-tienda",
-      "menu-item#informativo-somos",
-      "menu-item#informativo-eventos"
+      "menu-item#informativo-nosotros",
+      "menu-item#informativo-tyc",
+      "menu-item#informativo-pp"
     ],
     "props": {
       "blockClass": "menu-footer",
@@ -45,35 +46,67 @@
       }
     }
   },
-  "menu-item#informativo-somos": {
+  "menu-item#informativo-nosotros": {
     "props": {
-      "id": "menu-item-informativo-somos",
+      "id": "menu-item-informativo-nosotros",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "blockClass": "footer-subtitle",
       "itemProps": {
         "type": "internal",
-        "href": "/informativo-somos",
+        "href": "/nosotros",
         "noFollow": true,
-        "tagTitle": "informativo-somos",
-        "text": "Quiénes Somos"
+        "tagTitle": "informativo-nosotros",
+        "text": "Nosotros"
       }
     }
   },
-  "menu-item#informativo-eventos": {
+  "menu-item#informativo-tyc": {
     "props": {
-      "id": "menu-item-informativo-eventos",
+      "id": "menu-item-informativo-tyc",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "blockClass": "footer-subtitle",
       "itemProps": {
         "type": "internal",
-        "href": "/informativo-eventos",
+        "href": "/temrinos-y-condiciones",
         "noFollow": true,
-        "tagTitle": "informativo-eventos",
-        "text": "Grandes eventos"
+        "tagTitle": "informativo-tyc",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#informativo-pp": {
+    "props": {
+      "id": "menu-item-informativo-pp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-privacidad",
+        "noFollow": true,
+        "tagTitle": "informativo-pp",
+        "text": "Politicas de privacidad"
+      }
+    }
+  },
+  "menu-item#informativo-ventas-otec": {
+    "props": {
+      "id": "menu-item-informativo-ventas-otec",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ventas-otec",
+        "noFollow": true,
+        "tagTitle": "informativo-ventas-otec",
+        "text": "Ventas OTEC"
       }
     }
   }

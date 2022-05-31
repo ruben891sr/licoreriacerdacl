@@ -1,0 +1,7 @@
+{
+  "store.custom#nosotros": {
+    "blocks": [
+      "rich-text#title-carousel"
+    ]
+  }
+}
