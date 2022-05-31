@@ -1,7 +1,147 @@
 {
   "store.custom#nosotros": {
     "blocks": [
-      "rich-text#title-carousel"
+      "responsive-layout.desktop#nosotros",
+      "responsive-layout.phone#nosotros"
     ]
+  },
+  "responsive-layout.desktop#nosotros": {
+    "children": [
+      "flex-layout.row#banner-nuestraempresa",
+      "flex-layout.row#content-nuestraempresa-textImage-1",
+      "flex-layout.row#content-nuestraempresa-textImage-2"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#banner-nuestraempresa": {
+    "children": [
+      "flex-layout.col#banner-nuestraempresa"
+    ],
+    "props": {
+      "blockClass": "row--banner-terminos"
+    }
+  },
+  "flex-layout.col#banner-nuestraempresa": {
+    "children": [
+      "image#banner-nuestraempresa",
+      "rich-text#banner-nuestraempresa"
+    ],
+    "props": {
+      "blockClass": "col--banner-terminos"
+    }
+  }, 
+  "image#banner-nuestraempresa": {
+    "props": {
+      "src": "assets/licoreria-tienda.jpg",
+      "blockClass": "image-terminos"
+    }
+  },
+  "rich-text#banner-nuestraempresa": {
+    "props": {
+      "text": "Nosotros",
+      "blockClass": "title-terminos"
+    }
+  },
+
+  // Contenido 
+  "flex-layout.row#content-nuestraempresa-textImage-1": {
+    "children": [
+      "flex-layout.col#empresa-text-1",
+      "flex-layout.col#empresa-image-1"
+    ],
+    "props": {
+      "blockClass": "empresa-textImage-row-1"
+    }
+  },
+  "flex-layout.col#empresa-text-1": {
+    "children": ["rich-text#empresa-text-uno"],
+    "props": {
+      "blockClass": "empresa-text-col"
+    }
+  },
+  "rich-text#empresa-text-uno": {
+    "props": {
+      "blockClass": "empresa-text",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. \n The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. \n\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC."
+    }
+  },
+  "flex-layout.col#empresa-image-1": {
+    "children": ["image#empresa-image-1"],
+    "props": {
+      "blockClass": "empresa-image-col"
+    }
+  },
+  "image#empresa-image-1": {
+    "props": {
+      "src": "assets/empresa-1.jpg",
+      "blockClass": "empresa-image"
+    }
+  },
+  "flex-layout.row#content-nuestraempresa-textImage-2": {
+    "children": [
+      "flex-layout.col#empresa-image-2",
+      "flex-layout.col#empresa-text-2"
+    ],
+    "props": {
+      "blockClass": "empresa-textImage-row-2"
+    }
+  },
+  "flex-layout.col#empresa-text-2": {
+    "children": ["rich-text#empresa-text-dos"],
+    "props": {
+      "blockClass": "empresa-text-col"
+    }
+  },
+  "rich-text#empresa-text-dos": {
+    "props": {
+      "blockClass": "empresa-text-2",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. \n The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. \n\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC."
+    }
+  },
+  "flex-layout.col#empresa-image-2": {
+    "children": ["image#empresa-image-2"],
+    "props": {
+      "blockClass": "empresa-image-col"
+    }
+  },
+  "image#empresa-image-2": {
+    "props": {
+      "src": "assets/empresa-1.jpg",
+      "blockClass": "empresa-image"
+    }
+  },
+
+
+
+  "responsive-layout.phone#nosotros": {
+    "children": [
+      "flex-layout.row#banner-nuestraempresa-mobile",
+      "flex-layout.row#content-nuestraempresa-textImage-1",
+      "flex-layout.row#content-nuestraempresa-textImage-2"
+    ]
+  },
+  "flex-layout.row#banner-nuestraempresa-mobile": {
+    "children": [
+      "flex-layout.col#banner-nuestraempresa-mobile"
+    ],
+    "props": {
+      "blockClass": "row--banner-terminos"
+    }
+  },
+  "flex-layout.col#banner-nuestraempresa-mobile": {
+    "children": [
+      "image#banner-nuestraempresa-mobile",
+      "rich-text#banner-nuestraempresa"
+    ],
+    "props": {
+      "blockClass": "col--banner-terminos"
+    }
+  },
+  "image#banner-nuestraempresa-mobile": {
+    "props": {
+      "src": "assets/prueba-sucursales.jpg",
+      "blockClass": "image-terminos"
+    }
   }
 }
