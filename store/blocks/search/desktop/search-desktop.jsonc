@@ -75,7 +75,7 @@
   "search-banner#one": {
     "props": {
       "area": "one",
-      "blockClass": "myBanner",
+      "blockClass": "myBanner", 
       "horizontalAlignment": "center"
     }
   },

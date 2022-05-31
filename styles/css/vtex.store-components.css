@@ -415,6 +415,11 @@
     border-radius: 6px;
 }
 
+.imageElement--empresa-image,
+.imageElement--image-terminos {
+    display: block;
+}
+
 @media screen and (max-width: 1024px) {
     .wrapper--caluga-image {
         font-size: 1rem;

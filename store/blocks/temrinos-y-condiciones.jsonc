@@ -1,7 +1,501 @@
 {
   "store.custom#temrinos-y-condiciones": {
     "blocks": [
-      "rich-text#title-carousel"
+      "responsive-layout.desktop#temrinos-y-condiciones",
+      "responsive-layout.phone#temrinos-y-condiciones"
     ]
+  },
+  "responsive-layout.desktop#temrinos-y-condiciones": {
+    "children": [
+      "flex-layout.row#banner-terminosycondiciones",
+      "flex-layout.row#content-terminosycondiciones"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#banner-terminosycondiciones": {
+    "children": [
+      "flex-layout.col#banner-terminosycondiciones"
+    ],
+    "props": {
+      "blockClass": "row--banner-terminos"
+    }
+  },
+  "flex-layout.col#banner-terminosycondiciones": {
+    "children": [
+      "image#banner-terminosycondiciones",
+      "rich-text#banner-terminosycondiciones"
+    ],
+    "props": {
+      "blockClass": "col--banner-terminos"
+    }
+  }, 
+  "image#banner-terminosycondiciones": {
+    "props": {
+      "src": "assets/licoreria-tienda.jpg",
+      "blockClass": "image-terminos"
+    }
+  },
+  "rich-text#banner-terminosycondiciones": {
+    "props": {
+      "text": "Términos y condiciones",
+      "blockClass": "title-terminos"
+    }
+  },
+
+  // Contenido Términos y condiciones
+  "flex-layout.row#content-terminosycondiciones": {
+    "children": [
+      "flex-layout.col#content-terminosycondiciones"
+    ],
+    "props": {
+      "blockClass": "row--content-terminos"
+    }
+  },
+  "flex-layout.col#content-terminosycondiciones": {
+    "children": [
+      "flex-layout.row#tyc1",
+      "flex-layout.row#tyc2",
+      "flex-layout.row#tyc3",
+      "flex-layout.row#tyc4",
+      "flex-layout.row#tyc5",
+      "flex-layout.row#tyc6",
+      "flex-layout.row#tyc7",
+      "flex-layout.row#tyc8",
+      "flex-layout.row#tyc9",
+      "flex-layout.row#tyc10",
+      "flex-layout.row#tyc11",
+      "flex-layout.row#tyc12",
+      "flex-layout.row#tyc13",
+      "flex-layout.row#tyc14",
+      "flex-layout.row#tyc15",
+      "flex-layout.row#tyc16",
+      "flex-layout.row#tyc17",
+      "flex-layout.row#tyc18"
+    ],
+    "props": {
+      "blockClass": "col--content-terminos"
+    }
+  },
+
+
+  // tyc1
+  "flex-layout.row#tyc1": {
+    "children": ["rich-text#title-tyc1", "rich-text#text1-tyc1"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc1": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 1. SITIO WEB DE GOURMET.-"
+    }
+  },
+  "rich-text#text1-tyc1": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "GOOD FOOD S.A. (GOOD FOOD) ha puesto a disposición de usted (en adelante también el “USUARIO” o los “USUARIOS”) el sitio web www.gourmet.cl (en adelante el “sitio web de Gourmet”), que consiste en un sitio web donde se ofrece una variedad de servicios que incluyen la promoción, publicidad e información en general sobre recetas y productos que GOOD FOOD ofrece.\nAsimismo, contiene un sistema automatizado para la compraventa de productos alimenticios y no alimenticios a través del sitio web de Gourmet de propiedad de GOOD FOOD y cualquier otra Plataforma o mecanismo que desarrolle GOOD FOOD en el futuro.\nLos presentes términos y condiciones se entienden íntegramente incorporados en el servicio de compraventa y a todos los servicios que contrates con GOOD FOOD mediante los mecanismos de comercialización contenidos en el sitio web de Gourmet.\nEsos contratos, el uso de este sitio web y los presentes términos y condiciones se regulan por las leyes de la República de Chile.\nGOOD FOOD aplica estrictamente todos los beneficios y garantías que la Ley de Protección a los Derechos de los Consumidores estipula para las transacciones electrónicas que se realizan a través del sitio web de Gourmet."
+    }
+  },
+
+  // tyc2
+  "flex-layout.row#tyc2": {
+    "children": ["rich-text#title-tyc2", "rich-text#text1-tyc2"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc2": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 2. SERVICIO DE COMPRAVENTA DE PRODUCTOS.-"
+    }
+  },
+  "rich-text#text1-tyc2": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "La compraventa de productos facilitada por GOOD FOOD se realiza a través del sitio web: “www.gourmet.cl” (en adelante el “Servicio”).\nEl Servicio permite a los Usuarios la compra de productos alimenticios y no alimenticios a través del sitio web de Gourmet. Para acceder al Servicio, el Usuario deberá ir seleccionando y agregando los productos a un carro de compras. El Usuario que ya se encuentra registrado en el sitio web de Gourmet podrá comprar ingresando a su cuenta con la contraseña asociada a ella. La contraseña es de carácter secreto e intransferible. El Usuario deberá tomar las medidas y precauciones razonablemente necesarias para mantener el carácter secreto de la contraseña.\nSin perjuicio de lo anterior, el Usuario también podrá comprar sin tener cuenta creada, facilitando todos los datos necesarios para realizarla, tales como la dirección de despacho y de facturación, entre otros.\nEl uso de los servicios por parte del Usuario será solamente en calidad de Usuario final, bajo los términos y condiciones contempladas en el presente documento."
+    }
+  },
+
+  // tyc3
+  "flex-layout.row#tyc3": {
+    "children": ["rich-text#title-tyc3", "rich-text#text1-tyc3"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc3": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 3. REQUISITOS PARA EL USO DEL SITIO WEB DE GOURMET Y EL SERVICIO DE COMPRAVENTA DE PRODUCTOS.-"
+    }
+  },
+  "rich-text#text1-tyc3": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "El sitio web de Gourmet solamente puede ser utilizado por mayores de 18 años de edad que hayan aceptado íntegramente los presentes términos y condiciones. El USUARIO que sea menor de edad, pero que cuente con la autorización de sus padres o de su representante legal, podrá utilizar los servicios, siempre y cuando sus padres o representante legal, hayan aceptado íntegramente los presentes términos y condiciones. El uso real y efectivo del Servicio por parte del USUARIO, hará presumir a GOOD FOOD de que éstos han sido aceptados íntegramente.\nLa compraventa de productos en el sitio web de Gourmet sólo está disponible para despacho dentro de Chile, según el detalle expuesto en la página “Políticas de Despacho y Devoluciones” del sitio web de Gourmet, cuyo link se encuentra en la parte inferior de cualquier página del sitio web. Usted acepta no utilizar o intentar utilizar el servicio desde fuera de esas ubicaciones.\nAdicionalmente, la información que usted proporcione para la compra o registro en el sitio web de Gourmet debe ser auténtica, correcta y corresponderá a la realidad, debiendo comunicar mediante actualización de su registro, cualquier modificación de la misma tan pronto como ésta se produjere.\nUsted acepta y es de su responsabilidad cumplir con todos estos requisitos, los cuales pueden ser cambiados de forma periódica por parte de GOOD FOOD."
+    }
+  },
+
+  // tyc4
+  "flex-layout.row#tyc4": {
+    "children": ["rich-text#title-tyc4", "rich-text#text1-tyc4"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc4": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 4. LIBERTAD PARA NAVEGAR"
+    }
+  },
+  "rich-text#text1-tyc4": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "La sola visita y/o descarga y/o utilización del sitio web de Gourmet no impone obligación alguna, a menos que haya expresado en forma inequívoca y mediante actos positivos su voluntad de adquirir determinados productos, en la forma indicada en estos Términos y Condiciones."
+    }
+  },
+
+  // tyc5
+  "flex-layout.row#tyc5": {
+    "children": [
+      "rich-text#title-tyc5",
+      "rich-text#text1-tyc5",
+      "rich-text#text2-tyc5"
+    ],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc5": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 5. PRECIO Y FORMA DE PAGO PARA EL SERVICIO DE COMPRAVENTA"
+    }
+  },
+  "rich-text#text1-tyc5": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "GOOD FOOD pondrá a disposición del público consumidor un catálogo que contendrá un listado con los precios de los Productos ofrecidos. GOOD FOOD se compromete a no modificar las condiciones bajo las cuales los USUARIOS hayan contratado y acordado en este sitio. Los precios contenidos en el catálogo siempre incluirán el impuesto al valor agregado (I.V.A) que deberá pagar el USUARIO.\nCualquier modificación en las informaciones publicadas en el sitio web de Gourmet que se refieran a productos, precios, existencias y condiciones, promociones y ofertas, no afectarán a una orden de compra ya efectuada por el USUARIO y siempre referirá a operaciones futuras, sin afectar, en caso alguno, los derechos adquiridos por los USUARIOS.\nEn el caso que el USUARIO realice una compra a través del sitio web de Gourmet, y se agote el stock del producto objeto de dicha compra, GOOD FOOD notificará al USUARIO sobre la situación, procediendo a informar al USUARIO si desea realizar otra compra por un producto de igual/similar valor o si se procede a la anulación de la compra y devolución del dinero.\nEn relación al pago del precio de los productos solo pueden ser pagados por medio de:\na) Tarjetas de débito o crédito bancarias acogidas al sistema Redcompra ® o del sistema que se encuentre vigente al momento del pago, emitidas en Chile por bancos nacionales, que mantengan un contrato vigente para tales efectos con el emisor u operador Proveedor.\nb) Transferencia bancaria mediante el portal de pago Khipu."
+    }
+  },
+  "rich-text#text2-tyc5": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "El pago con tarjetas débito y crédito se realizará a través de WebPay Plus o del sistema que se encuentre vigente al momento del pago electrónico. El uso de estas tarjetas se sujetará a lo establecido en estos Términos y Condiciones y en relación con su emisor, y a lo pactado en los respectivos Contratos de Apertura y Reglamento de Uso, que predominará de haber contradicción.\nTodos los aspectos relativos al uso de estas tarjetas bancarias, como su fecha de emisión, caducidad, cupo, bloqueos, etc., se sujetarán, en relación con su emisor, a lo pactado en los respectivos Contratos de Apertura y Reglamento de Uso. De haber contradicción, predominará lo expresado en ese último instrumento.\nLos pagos realizados mediante el portal de pago Khipu se sujetarán a lo establecido en sus Términos y Condiciones que regulan este medio de pago.\nSi por cualquier motivo se deje sin efecto una transacción cuyo pago se hubiera realizado con alguno de estos medios, entonces los efectos de la devolución del precio se regirán por las reglas que al efecto el cliente haya pactado con su banco y a las instrucciones que establezca la Superintendencia de Bancos e Instituciones Financieras. Lo anterior, eximirá de toda responsabilidad a GOOD FOOD por los efectos que conlleva dejar sin efecto una transacción por cualquier motivo realizado a través del sistema Redcompra ®, del portal del pago Khipu o del sistema que se encuentre vigente al momento del pago electrónico."
+    }
+  },
+
+  // tyc6
+  "flex-layout.row#tyc6": {
+    "children": ["rich-text#title-tyc6", "rich-text#text1-tyc6"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc6": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 6. CUENTA DE USUARIO.-"
+    }
+  },
+  "rich-text#text1-tyc6": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "El registro en el sitio web de Gourmet generará una cuenta para el USUARIO solo accesible a través de una contraseña creada por el USUARIO. Dicha cuenta es de uso personal y usted es el único responsable de mantener la confidencialidad y seguridad de su cuenta. GOOD FOOD no será responsable por ninguna pérdida o daño provocado por cualquier uso no autorizado o falta de confidencialidad o seguridad en la información asociada a su cuenta."
+    }
+  },
+
+  // tyc7
+  "flex-layout.row#tyc7": {
+    "children": ["rich-text#title-tyc7", "rich-text#text1-tyc7"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc7": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 7. PROHIBICIONES.-"
+    }
+  },
+  "rich-text#text1-tyc7": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "La utilización del sitio web de Gourmet por parte del USUARIO estará sujeta a las siguientes prohibiciones:\na. Realizar o facilitar actos de ingeniería reversa, decodificar, modificar de cualquier manera el sitio web, como también adulterar sus medidas de protección efectivas.\nb. Interceptar, examinar u observar cualquier tipo de comunicación utilizada por clientes, el servidor, el sitio web o el Servicio, ya sea mediante alguna técnica o uso de algún tipo de herramienta o software.\nc. Ingresar al sitio web y utilizar cualquier servicio ofrecido en el sitio web sin tener autorización para hacerlo o mediante cuentas que no le pertenezcan.\nd. Proporcionar antecedentes falsos o no ajustados a la realidad, para el registro y utilización del sitio web, como también actos de suplantación de terceras persona o USUARIOS.\ne. Utilizar el sitio web para fines distintos de los contemplados en los presentes términos y condiciones, tales como el envío de toda clase de publicidad o la realización de actos contrarios a la moral y a las buenas costumbres, tales como acoso y abuso a los demás USUARIOS.\nf. Todo acto que mediante la utilización del sitio web y cualquier servicio ofrecido en el sitio web pueda suponer una infracción a los derechos de propiedad intelectual de otros Usuarios o terceras personas."
+    }
+  },
+
+  // tyc8
+  "flex-layout.row#tyc8": {
+    "children": ["rich-text#title-tyc8", "rich-text#text1-tyc7"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc8": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 8. PROPIEDAD INTELECTUAL.-"
+    }
+  },
+  "rich-text#text1-tyc8": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "La propiedad intelectual del Sitio web de Gourmet y cualquier servicio ofrecido en el sitio web de Gourmet en lo que respecta a sus códigos fuentes y objeto, gráficos, fragmentos de audio, interfaz de Usuario, scripts, íconos de botones, imágenes, audio clips, descargas digitales y compilaciones de datos y sus elementos de apoyo y soporte, pertenecen de manera exclusiva a GOOD FOOD.\nLa utilización que usted haga de la propiedad intelectual de GOOD FOOD será exclusivamente para el uso del Servicio. Por consiguiente, queda estrictamente prohibido cualquier acto de reproducción, adaptación, distribución y explotación no autorizada, de los objetos protegidos por la propiedad intelectual de GOOD FOOD.\nEl uso del Servicio por parte del USUARIO no implica la cesión de los derechos de propiedad intelectual de GOOD FOOD y/o sus licenciantes.\nLos derechos de propiedad intelectual de las marcas comerciales, nombre del sitio web y nombres de dominio asociadas al sitio web y/o servicios ofrecidos en el sitio web, así como los derechos de uso y explotación de los mismos, son propiedad exclusiva de GOOD FOOD y/o sus licenciantes. Nada de lo señalado en los presentes términos y condiciones, ni el uso mismo del Servicio, puede dar a entender que usted recibe derecho o licencia alguna con respecto a las marcas comerciales y nombres de dominio ya señalados. Todos los derechos no expresamente otorgados en estos Términos y Condiciones son reservados por GOOD FOOD o sus cesionarios, proveedores, editores, titulares de derechos u otros proveedores de contenidos."
+    }
+  },
+
+  // tyc9
+  "flex-layout.row#tyc9": {
+    "children": ["rich-text#title-tyc9", "rich-text#text1-tyc9"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc9": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 9. LIMITACIONES DE RESPONSABILIDAD.-"
+    }
+  },
+  "rich-text#text1-tyc9": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "GOOD FOOD tiene el derecho, pero no la obligación, de examinar el contenido creado y subido por los USUARIOS al sitio web de Gourmet; sin que exista garantía alguna por parte de GOOD FOOD, más allá de sus mejores esfuerzos de velar por la excelencia o calidad de dicho contenido, de que éste se ajuste a los requerimientos o expectativas de los USUARIOS y de que sean veraces o de fuente confiable. Por lo tanto, GOOD FOOD no será responsable del contenido creado y subido por sus USUARIOS, y por el uso indebido del sitio web de Gourmet por parte de los USUARIOS, y de los daños y perjuicios que dicho contenido o uso indebido pueda causarle a usted.\nCada USUARIO es responsable del uso que haga del sitio web de Gourmet y cualquier servicio ofrecido en el sitio web de Gourmet puesta a disposición por GOOD FOOD.\nGOOD FOOD tendrá la facultad de eliminar de su sitio web de Gourmet, cualquier contenido creado y subido por los USUARIOS que considere inapropiado para los fines de su sitio web y/o que sean contrarias a la moral y a las buenas costumbres.\nGOOD FOOD no será responsable por interrupciones, errores, falta de disponibilidad y pérdidas de información en el sitio web de Gourmet y cualquier servicio ofrecido en el sitio web de Gourmet. Tales servicios se entregan “tal como están” y según disponibilidad para su uso, la cual puede estar sujeta a cambios o variaciones. GOOD FOOD no garantiza que el sitio web de Gourmet y cualquier servicio ofrecido en el sitio web de Gourmet permanecerán libres de virus informáticos, interferencias de información o ataques de hackers, por lo que no será responsable de los daños que tales circunstancias puedan provocar al USUARIO, aun cuando GOOD FOOD hubiera sido avisada de su posible existencia. GOOD FOOD no garantiza que cualquier error en el Servicio será corregido.\nGOOD FOOD realizará esfuerzos razonables para resguardar la información proporcionada por sus USUARIOS. Sin embargo, el envío de dicha información, su veracidad y manipulación por parte del USUARIO será de su exclusiva responsabilidad.\nEl USUARIO deberá mantener indemne a GOOD FOOD frente a toda acción, demanda, procedimiento, pérdida y daño de cualquier tipo, gastos (incluyendo costas y gastos legales), sufridos o incurridos por GOOD FOOD por parte de otros USUARIOS o terceras personas, como consecuencia de la falta de cumplimiento de los presentes términos y condiciones."
+    }
+  },
+
+  // tyc10
+  "flex-layout.row#tyc10": {
+    "children": ["rich-text#title-tyc10", "rich-text#text1-tyc10"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc10": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 10. FORMACION DEL CONSENTIMIENTO DE LA COMPRAVENTA"
+    }
+  },
+  "rich-text#text1-tyc10": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "En el sitio web de Gourmet se ofrecerá el Servicio sujeto a los términos y condiciones del presente Contrato, que podrán ser aceptados vía electrónica durante el proceso de compra de cada USUARIO, con los mecanismos que el mismo sitio web de Gourmet ofrece para ello. La formación del consentimiento deberá cumplir con los requisitos generales que establecen las leyes chilenas, en particular la seriedad de la voluntad, del precio, la libertad del consumidor para elegir con la información suficiente, libre de todo vicio del consentimiento (error, fuerza o dolo).\nLa formación del consentimiento se perfeccionará con el Click o cualquier otro medio de aceptación electrónica que el USUARIO ejecutará al concluir la operación de compra del producto o productos seleccionados y agregados al Carro de Compras.\nUna vez perfeccionado el contrato de compraventa, GOOD FOOD estará obligado a enviar confirmación escrita del mismo. Ésta confirmación de la compra (comprobante de compra) será enviada por vía electrónica al correo electrónico del USUARIO. Dicha confirmación deberá contener una copia íntegra, clara y legible del contrato."
+    }
+  },
+
+  // tyc11
+  "flex-layout.row#tyc11": {
+    "children": ["rich-text#title-tyc11", "rich-text#text1-tyc11"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc11": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 11. RETRACTO LEGAL"
+    }
+  },
+  "rich-text#text1-tyc11": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "GOOD FOOD declara expresamente según la facultad conferida en la Ley sobre Protección de los Derechos de los Consumidores, que no operará el derecho de retracto por parte del USUARIO en los contratos celebrados por medios electrónicos entre GOOD FOOD y el USUARIO."
+    }
+  },
+
+  // tyc12
+  "flex-layout.row#tyc12": {
+    "children": ["rich-text#title-tyc12", "rich-text#text1-tyc12"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc12": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 12. CAMBIO Y DEVOLUCIÓN DE LOS PRODUCTOS"
+    }
+  },
+  "rich-text#text1-tyc12": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "Si el producto presentara defectos dentro de los 3 meses siguientes a la fecha en que fue recibido, el USUARIO tendrá el derecho de optar entre su cambio o la devolución de la cantidad pagada, siempre que el producto no se hubiera deteriorado por un hecho imputable al USUARIO. GOOD FOOD le asistirá el derecho de revisar el producto objeto de la devolución para constatar que el deterioro no fuera por un hecho imputable al USUARIO.\no, en su defecto, será de 7 días.\n acuerdo con el USUARIO. Si se hubiere deteriorado o dañado por mal uso del USUARIO, no se aplicará esta garantía.\nciones que ostenten o a las menciones del rotulado;\n calidad o condiciones sanitarias, en su caso, no sea enteramente apto para el uso o consumo al que está destinado o al que GOOD FOOD hubiese señalado en su publicidad;\n"
+    }
+  },
+
+  // tyc13
+  "flex-layout.row#tyc13": {
+    "children": ["rich-text#title-tyc13", "rich-text#text1-tyc13"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc13": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 13. COOKIES Y/O HERRAMIENTAS PARA ANALÍTICAS"
+    }
+  },
+  "rich-text#text1-tyc13": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "GOOD FOOD podrá utilizar cookies y/o herramientas para analíticas para la optimización de la publicidad y en general de su Servicio GOURMET ONLINE. Los Cookies y/o herramientas para analíticas solamente se asocian con el USUARIO en forma anónima, y no proporcionan referencias o información que permitan deducir dato personal alguno del usuario. Los cookies y/o herramientas para analíticas de GOOD FOOD no pueden leer o guardar datos en el computador, ni leer los archivos cookies creados por otros proveedores.\nEl Usuario declara que GOOD FOOD se encuentra facultada para utilizar tecnología de terceros que hagan uso de cookies y/o herramientas para analíticas para el correcto funcionamiento de nuestro Servicio GOURMET ONLINE. El uso de cookies y/o herramientas para analíticas quedará a disposición de GOOD FOOD y dependerá de las campañas que puedan estar activas en cada instante."
+    }
+  },
+
+  // tyc14
+  "flex-layout.row#tyc14": {
+    "children": ["rich-text#title-tyc14", "rich-text#text1-tyc14"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc14": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 14. PRIVACIDAD.-"
+    }
+  },
+  "rich-text#text1-tyc14": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "El sitio web de Gourmet está sujeto a las Políticas de Privacidad de Gourmet, cuyo link se encuentran en la parte inferior de cualquier página dentro del sitio web de Gourmet."
+    }
+  },
+
+  // tyc15
+  "flex-layout.row#tyc15": {
+    "children": ["rich-text#title-tyc15", "rich-text#text1-tyc15"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc15": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 15. MODIFICACIONES.-"
+    }
+  },
+  "rich-text#text1-tyc15": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "GOOD FOOD podrá modificar los presentes términos y condiciones en cualquier momento, estableciendo disposiciones adicionales sobre el Servicio. Dichas modificaciones o adiciones entrarán en vigencia inmediatamente y se incorporarán a los presentes términos y condiciones. El uso continuado del Servicio, se considerará como aceptación de dichas modificaciones o adiciones."
+    }
+  },
+
+  // tyc16
+  "flex-layout.row#tyc16": {
+    "children": ["rich-text#title-tyc16", "rich-text#text1-tyc16"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc16": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 16. TÉRMINO Y VIGENCIA DEL SERVICIO.-"
+    }
+  },
+  "rich-text#text1-tyc16": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "El no cumplimiento de los presentes términos y condiciones, facultará a GOOD FOOD para:(i) terminar el contrato asociado al Servicio y/o cuenta del USUARIO, permaneciendo obligado el USUARIO al pago de toda suma exigible conforme al respectivo contrato hasta la fecha de su terminación; y/o (ii) terminar la licencia del Servicio ofrecido por el sitio web de Gourmet; y/o (iii) impedir el acceso al Servicio y/o a cualquier otro servicio ofrecido en el sitio web de Gourmet(o cualquier parte de éste).\nGOOD FOOD se reserva el derecho a modificar, suspender o descontinuar el Servicio (o cualquier parte o contenido) en caso de incumplimiento de los presentes términos y condiciones, en cualquier momento con o sin mediar notificación.\nLa vigencia del Servicio se encuentra supeditada al momento de producirse la celebración de la compraventa y durará hasta la entrega del (los) producto(s) alimenticios(s), por medio del despacho a la dirección proporcionada por el USUARIO. El USUARIO deberá aceptar los presentes términos y condiciones cada vez que se realice una compraventa de acuerdo al presente Servicio."
+    }
+  },
+
+  // tyc17
+  "flex-layout.row#tyc17": {
+    "children": ["rich-text#title-tyc17", "rich-text#text1-tyc17", "rich-text#text2-tyc17", "rich-text#text3-tyc17", "rich-text#text4-tyc17"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc17": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 17. ENTREGA: DESPACHO DE LOS PRODUCTOS DEL SERVICIO DE COMRPAVENTA DE PRODUCTOS"
+    }
+  },
+  "rich-text#text1-tyc17": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "Para el despacho de los productos comprados en el sitio web, el USUARIO podrá seleccionar las condiciones de despacho y entrega de los productos adquiridos según lo informado a través del sitio web de Gourmet.\nLa información del lugar de envío es de exclusiva responsabilidad del USUARIO.\nREQUISITOS DEL DESPACHO:"
+    }
+  },
+  "rich-text#text2-tyc17": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "1. DATOS DEL DESPACHO\n• Será responsabilidad del USUARIO la exactitud de los datos entregados a GOOD FOOD para una correcta y oportuna entrega de los productos en su domicilio o lugar de despacho. En el evento que el USUARIO modifique su domicilio o lugar de despacho, éste deberá notificar a GOOD FOOD con 24 horas previas a generarse el despacho. GOOD FOOD realizará todos los esfuerzos razonables para entregar los productos en forma correcta y oportuna en el nuevo domicilio o lugar de despacho. En caso de no ser posible, el USUARIO no tendrá derecho a exigir la devolución de lo pagado. En este caso, GOOD FOOD podrá exigir el pago asociado al costo de generar un nuevo despacho debido a la modificación del domicilio o lugar de despacho."
+    }
+  },
+  "rich-text#text3-tyc17": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "2. ENTREGA DEL PRODUCTO\n1. Los despachos a domicilio se realizan de lunes a viernes (días hábiles), entre 09:00 hrs y 19:00 hrs. Los festivos no se consideran para el plazo de entrega, retomándose el día hábil siguiente.\n2. El USUARIO debe revisar si el producto corresponde a su compra y que se encuentre en buen estado antes de firmar la guía de despacho (ya sea física o virtual) y aceptarla.\n3. La recepción debe realizarse por un mayor de edad quien deberá firmar y escribir su nombre y Rut en la guía de despacho (ya sea física o virtual) para acreditar la recepción conforme.\n4. En la eventualidad que el producto sea recibido por un tercero (familiares, asesora del hogar, conserjes, etc.) y éste dé conformidad a la entrega del producto, entenderemos que el producto fue recibido satisfactoriamente.\n5. Posterior a la aceptación por el USUARIO del despacho, GOOD FOOD no se responsabiliza por daños al producto.\n6. En caso de disconformidad, el USUARIO deberá rechazar el producto en el momento de la entrega, indicando sus razones además de su nombre y Rut en la guía de despacho.\n7. Los tiempos de despacho serán informados a través de elementos gráficos o textos dados a conocer a través del sitio web de Gourmet y/o en la descripción del producto correspondiente."
+    }
+  },
+  "rich-text#text4-tyc17": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "3. GARANTIA DE DESPACHO\nEl compromiso de GOOD FOOD es despachar en forma oportuna los productos de acuerdo a los plazos de despachos informados previamente. Si esto no llegara a suceder, el compromiso es otorgarle al USUARIO un código o cupón de descuento para su próxima compra.\nEn el caso anterior, el USUARIO deberá llamar al enviar un correo electrónico a compras@gourmet.cl y GOOD FOOD gestionará la entrega de un código de descuento.\nLa garantía quedará sin efecto en caso de:\n1) Que no haya moradores al momento del despacho.\n2) Que los datos de la dirección de despacho no sean correctos.\n3) Cualquier otra situación atribuible por culpa del USUARIO.\n3) En caso fortuito o fuerza mayor por el cual se hace imposible la entrega."
+    }
+  },
+
+  // tyc18
+  "flex-layout.row#tyc18": {
+    "children": ["rich-text#title-tyc18", "rich-text#text1-tyc18"],
+    "props": {
+      "blockClass": "row-tyc"
+    }
+  },
+  "rich-text#title-tyc18": {
+    "props": {
+      "blockClass": "subtitle-tyc",
+      "text": "### 18. LEY APLICABLE, JURISDICCIÓN Y NOTIFICACIONES.-"
+    }
+  },
+  "rich-text#text1-tyc18": {
+    "props": {
+      "blockClass": "txt-tyc",
+      "text": "Para todos los efectos legales de los presentes términos y condiciones, la ley aplicable será la ley chilena, fijándose como domicilio la ciudad y comuna de Santiago de Chile y sometiéndose las partes, esto es, GOOD FOOD y los Usuarios, a la Jurisdicción de sus Tribunales Ordinarios de Justicia.\nToda notificación de GOOD FOOD a sus Usuarios respecto de los presentes términos y condiciones, será mediante correo electrónico a la dirección de correo electrónico registrada en la cuenta del Usuario o por medio de la publicación de las modificaciones en el sitio web de Gourmet. Las modificaciones tendrán un efecto inmediato, salvo que GOOD FOOD señale lo contrario."
+    }
+  },
+
+
+
+  "responsive-layout.phone#temrinos-y-condiciones": {
+    "children": [
+      "flex-layout.row#banner-terminosycondiciones-mobile",
+      "flex-layout.row#content-terminosycondiciones"
+    ]
+  },
+  "flex-layout.row#banner-terminosycondiciones-mobile": {
+    "children": [
+      "flex-layout.col#banner-terminosycondiciones-mobile"
+    ],
+    "props": {
+      "blockClass": "row--banner-terminos"
+    }
+  },
+  "flex-layout.col#banner-terminosycondiciones-mobile": {
+    "children": [
+      "image#banner-terminosycondiciones-mobile",
+      "rich-text#banner-terminosycondiciones"
+    ],
+    "props": {
+      "blockClass": "col--banner-terminos"
+    }
+  },
+  "image#banner-terminosycondiciones-mobile": {
+    "props": {
+      "src": "assets/prueba-sucursales.jpg",
+      "blockClass": "image-terminos"
+    }
   }
 }
