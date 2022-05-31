@@ -3,7 +3,7 @@
   "name": "licoreriacerdacl",
   "title": "licoreriacerdacl",
   "description": "licoreriacerdacl",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
